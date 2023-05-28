@@ -1,0 +1,15 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:Shubh0010/namaste-react.git"
+  },
+  "author": "Shubham Negi",
+  "license": "ISC"
+}
