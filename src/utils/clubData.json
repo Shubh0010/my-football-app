@@ -1022,5 +1022,491 @@
       ]
     },
     "canSyncCalendar": true
+  },
+  {
+    "id": 8633,
+    "type": "team",
+    "name": "Real Madrid",
+    "latestSeason": "2023/2024",
+    "shortName": "Real Madrid",
+    "country": "ESP",
+    "faqJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When is Real Madrid's next match?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Real Madrid's next match is at 20:00 GMT on Sun, 17 Dec 2023 against Villarreal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is Real Madrid's top scorer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jude Bellingham has scored the most goals for Real Madrid, with 12 goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is Real Madrid's best player?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jude Bellingham is the top-rated player for Real Madrid with a FotMob rating of 8.32."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who has the most assists for Real Madrid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Toni Kroos has the most assists on Real Madrid, with 5 assists."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Real Madrid's stadium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Real Madrid stadium is located in Madrid and is called Estadio Santiago Bernabéu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the capacity of Estadio Santiago Bernabéu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The capacity for Estadio Santiago Bernabéu is 85,454."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When was Estadio Santiago Bernabéu opened?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Estadio Santiago Bernabéu opened in 1947."
+          }
+        }
+      ]
+    },
+    "sportsTeamJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsTeam",
+      "name": "Real Madrid",
+      "sport": "Football/Soccer",
+      "gender": "https://schema.org/Male",
+      "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
+      "url": "https://www.fotmob.com/teams/8633/overview/real-madrid",
+      "coach": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carlo Ancelotti",
+        "url": "https://www.fotmob.com/players/78619/carlo-ancelotti",
+        "nationality": null,
+        "affiliation": null,
+        "height": null,
+        "weight": null
+      },
+      "athlete": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Thibaut Courtois",
+          "url": "https://www.fotmob.com/players/170323/thibaut-courtois",
+          "nationality": {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Kepa Arrizabalaga",
+          "url": "https://www.fotmob.com/players/317564/kepa-arrizabalaga",
+          "nationality": {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Andriy Lunin",
+          "url": "https://www.fotmob.com/players/800882/andriy-lunin",
+          "nationality": {
+            "@type": "Country",
+            "name": "Ukraine"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Diego Pineiro",
+          "url": "https://www.fotmob.com/players/1324375/diego-pineiro",
+          "nationality": {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Fran González",
+          "url": "https://www.fotmob.com/players/1484851/fran-gonzalez",
+          "nationality": {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "David Alaba",
+          "url": "https://www.fotmob.com/players/121633/david-alaba",
+          "nationality": {
+            "@type": "Country",
+            "name": "Austria"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Nacho Fernandez",
+          "url": "https://www.fotmob.com/players/213499/nacho-fernandez",
+          "nationality": {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Antonio Rüdiger",
+          "url": "https://www.fotmob.com/players/276738/antonio-rudiger",
+          "nationality": {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Daniel Carvajal",
+          "url": "https://www.fotmob.com/players/282674/daniel-carvajal",
+          "nationality": {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Lucas Vázquez",
+          "url": "https://www.fotmob.com/players/359193/lucas-vazquez",
+          "nationality": {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ferland Mendy",
+          "url": "https://www.fotmob.com/players/623537/ferland-mendy",
+          "nationality": {
+            "@type": "Country",
+            "name": "France"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Francisco Garcia",
+          "url": "https://www.fotmob.com/players/750028/francisco-garcia",
+          "nationality": {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Éder Militao",
+          "url": "https://www.fotmob.com/players/844415/eder-militao",
+          "nationality": {
+            "@type": "Country",
+            "name": "Brazil"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Vinicius Tobias",
+          "url": "https://www.fotmob.com/players/1314657/vinicius-tobias",
+          "nationality": {
+            "@type": "Country",
+            "name": "Brazil"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Luka Modric",
+          "url": "https://www.fotmob.com/players/31097/luka-modric",
+          "nationality": {
+            "@type": "Country",
+            "name": "Croatia"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Toni Kroos",
+          "url": "https://www.fotmob.com/players/95078/toni-kroos",
+          "nationality": {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Daniel Ceballos",
+          "url": "https://www.fotmob.com/players/531629/daniel-ceballos",
+          "nationality": {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Federico Valverde",
+          "url": "https://www.fotmob.com/players/743533/federico-valverde",
+          "nationality": {
+            "@type": "Country",
+            "name": "Uruguay"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Brahim Diaz",
+          "url": "https://www.fotmob.com/players/750027/brahim-diaz",
+          "nationality": {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Aurélien Tchouaméni",
+          "url": "https://www.fotmob.com/players/914458/aurelien-tchouameni",
+          "nationality": {
+            "@type": "Country",
+            "name": "France"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Eduardo Camavinga",
+          "url": "https://www.fotmob.com/players/1015185/eduardo-camavinga",
+          "nationality": {
+            "@type": "Country",
+            "name": "France"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Jude Bellingham",
+          "url": "https://www.fotmob.com/players/1077894/jude-bellingham",
+          "nationality": {
+            "@type": "Country",
+            "name": "England"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Arda Güler",
+          "url": "https://www.fotmob.com/players/1253890/arda-guler",
+          "nationality": {
+            "@type": "Country",
+            "name": "Turkiye"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Nico Paz",
+          "url": "https://www.fotmob.com/players/1347574/nico-paz",
+          "nationality": {
+            "@type": "Country",
+            "name": "Argentina"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Joselu",
+          "url": "https://www.fotmob.com/players/172321/joselu",
+          "nationality": {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Vinicius Junior",
+          "url": "https://www.fotmob.com/players/846033/vinicius-junior",
+          "nationality": {
+            "@type": "Country",
+            "name": "Brazil"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Rodrygo",
+          "url": "https://www.fotmob.com/players/895362/rodrygo",
+          "nationality": {
+            "@type": "Country",
+            "name": "Brazil"
+          },
+          "affiliation": null,
+          "height": null,
+          "weight": null
+        }
+      ],
+      "location": {
+        "@type": "Place",
+        "name": "Estadio Santiago Bernabéu",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Spain",
+          "addressLocality": "Madrid"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "40.453068",
+          "longitude": "-3.688354"
+        }
+      },
+      "memberOf": {
+        "@type": "SportsOrganization",
+        "name": "LaLiga",
+        "url": "https://www.fotmob.com/leagues/87/overview/laliga"
+      }
+    },
+    "breadcrumbJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fotmob.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "LaLiga",
+          "item": "https://www.fotmob.com/leagues/87/overview/laliga"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Real Madrid",
+          "item": "https://www.fotmob.com/teams/8633/overview/real-madrid"
+        }
+      ]
+    },
+    "canSyncCalendar": true
   }
 ]

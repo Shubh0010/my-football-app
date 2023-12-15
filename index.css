@@ -28,6 +28,9 @@
     padding: 10px;
 }
 
+    .body .filter {
+      margin-top: 1%;
+    }
     .body .search {
         margin-left: 95%;
     }
@@ -53,8 +56,10 @@
                 margin-top: 10%;
             }
             .body .club-container .club-card .club-name {
-                margin-left: 15%;
-            }
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
             .body .club-container .club-card .club-coach,
             .body .club-container .club-card .club-stadium,
             .body .club-container .club-card .club-league {

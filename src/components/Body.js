@@ -1,15 +1,27 @@
 import clubData from '../utils/clubData.json';
 import ClubCard from './ClubCard';
+import { useState } from 'react';
 
 const Body = () => {
 
+  const [clubs, setClubList] = useState(clubData);
+
   return (
     <div className='body'>
-      <div></div>
+      <div className='filter'>
+        <button 
+          className='filter-btn'
+          onClick={()=> {
+            setClubList(clubs.filter(club => club.sportsTeamJSONLD.memberOf.name == 'Premier League'));
+          }}
+        >
+            Premier League
+        </button>
+      </div>
       <div className='search'> Search </div>
       <div className='club-container'>
         {
-          clubData.map(club => (
+          clubs.map(club => (
             <ClubCard key={club.id} club={club} />
           ))
         }
