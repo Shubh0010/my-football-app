@@ -1,0 +1,1026 @@
+[
+    {
+        "id": 10260,
+        "type": "team",
+        "name": "Manchester United",
+        "latestSeason": "2023/2024",
+        "shortName": "Man United",
+        "country": "ENG",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "When is Manchester United's next match?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Manchester United's next match is at 16:30 GMT on Sun, 17 Dec 2023 against Liverpool."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who is Manchester United's top scorer?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Scott McTominay has scored the most goals for Manchester United, with 5 goals."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who is Manchester United's best player?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Bruno Fernandes is the top-rated player for Manchester United with a FotMob rating of 7.67."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who has the most assists for Manchester United?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Bruno Fernandes has the most assists on Manchester United, with 3 assists."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Manchester United's stadium?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Manchester United stadium is located in Manchester and is called Old Trafford."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the capacity of Old Trafford?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The capacity for Old Trafford is 76,212."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Old Trafford opened?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Old Trafford opened in 1910."
+                    }
+                }
+            ]
+        },
+        "sportsTeamJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "SportsTeam",
+            "name": "Manchester United",
+            "sport": "Football/Soccer",
+            "gender": "https://schema.org/Male",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10260.png",
+            "url": "https://www.fotmob.com/teams/10260/overview/manchester-united",
+            "coach": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Erik ten Hag",
+                "url": "https://www.fotmob.com/players/656595/erik-ten-hag",
+                "nationality": null,
+                "affiliation": null,
+                "height": null,
+                "weight": null
+            },
+            "athlete": [
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Tom Heaton",
+                    "url": "https://www.fotmob.com/players/24155/tom-heaton",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Andre Onana",
+                    "url": "https://www.fotmob.com/players/611491/andre-onana",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Cameroon"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Altay Bayindir",
+                    "url": "https://www.fotmob.com/players/866967/altay-bayindir",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Turkiye"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Jonny Evans",
+                    "url": "https://www.fotmob.com/players/43248/jonny-evans",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Northern Ireland"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Raphaël Varane",
+                    "url": "https://www.fotmob.com/players/230982/raphael-varane",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "France"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Harry Maguire",
+                    "url": "https://www.fotmob.com/players/255610/harry-maguire",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Victor Nilsson Lindelöf",
+                    "url": "https://www.fotmob.com/players/258269/victor-nilsson-lindelof",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Sweden"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Luke Shaw",
+                    "url": "https://www.fotmob.com/players/362694/luke-shaw",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Sergio Reguilon",
+                    "url": "https://www.fotmob.com/players/724436/sergio-reguilon",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Spain"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Diogo Dalot",
+                    "url": "https://www.fotmob.com/players/751550/diogo-dalot",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Portugal"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Aaron Wan-Bissaka",
+                    "url": "https://www.fotmob.com/players/760320/aaron-wan-bissaka",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Lisandro Martinez",
+                    "url": "https://www.fotmob.com/players/847983/lisandro-martinez",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Argentina"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Tyrell Malacia",
+                    "url": "https://www.fotmob.com/players/865118/tyrell-malacia",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Netherlands"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Christian Eriksen",
+                    "url": "https://www.fotmob.com/players/157723/christian-eriksen",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Denmark"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Casemiro",
+                    "url": "https://www.fotmob.com/players/208494/casemiro",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Brazil"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Bruno Fernandes",
+                    "url": "https://www.fotmob.com/players/422685/bruno-fernandes",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Portugal"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Sofyan Amrabat",
+                    "url": "https://www.fotmob.com/players/593116/sofyan-amrabat",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Morocco"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Donny van de Beek",
+                    "url": "https://www.fotmob.com/players/612836/donny-van-de-beek",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Netherlands"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Mason Mount",
+                    "url": "https://www.fotmob.com/players/750032/mason-mount",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Scott McTominay",
+                    "url": "https://www.fotmob.com/players/843099/scott-mctominay",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Scotland"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Hannibal Mejbri",
+                    "url": "https://www.fotmob.com/players/1113785/hannibal-mejbri",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Tunisia"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Kobbie Mainoo",
+                    "url": "https://www.fotmob.com/players/1292810/kobbie-mainoo",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Anthony Martial",
+                    "url": "https://www.fotmob.com/players/413557/anthony-martial",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "France"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Marcus Rashford",
+                    "url": "https://www.fotmob.com/players/696365/marcus-rashford",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Jadon Sancho",
+                    "url": "https://www.fotmob.com/players/846381/jadon-sancho",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Antony",
+                    "url": "https://www.fotmob.com/players/967622/antony",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Brazil"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Facundo Pellistri",
+                    "url": "https://www.fotmob.com/players/1073402/facundo-pellistri",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Uruguay"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Rasmus Højlund",
+                    "url": "https://www.fotmob.com/players/1199272/rasmus-hojlund",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Denmark"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Alejandro Garnacho",
+                    "url": "https://www.fotmob.com/players/1203665/alejandro-garnacho",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Argentina"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                }
+            ],
+            "location": {
+                "@type": "Place",
+                "name": "Old Trafford",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "England",
+                    "addressLocality": "Manchester"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "53.463094",
+                    "longitude": "-2.291374"
+                }
+            },
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Premier League",
+                "url": "https://www.fotmob.com/leagues/47/overview/premier-league"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Premier League",
+                    "item": "https://www.fotmob.com/leagues/47/overview/premier-league"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Manchester United",
+                    "item": "https://www.fotmob.com/teams/10260/overview/manchester-united"
+                }
+            ]
+        },
+        "canSyncCalendar": true
+    },
+    {
+        "id": 10261,
+        "type": "team",
+        "name": "Newcastle United",
+        "latestSeason": "2023/2024",
+        "shortName": "Newcastle",
+        "country": "ENG",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "When is Newcastle United's next match?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Newcastle United's next match is at 15:00 GMT on Sat, 16 Dec 2023 against Fulham."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who is Newcastle United's top scorer?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Callum Wilson has scored the most goals for Newcastle United, with 7 goals."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who is Newcastle United's best player?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Kieran Trippier is the top-rated player for Newcastle United with a FotMob rating of 7.43."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who has the most assists for Newcastle United?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Kieran Trippier has the most assists on Newcastle United, with 7 assists."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Newcastle United's stadium?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Newcastle United stadium is located in Newcastle upon Tyne and is called St. James' Park."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the capacity of St. James' Park?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The capacity for St. James' Park is 52,758."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was St. James' Park opened?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "St. James' Park opened in 1892."
+                    }
+                }
+            ]
+        },
+        "sportsTeamJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "SportsTeam",
+            "name": "Newcastle United",
+            "sport": "Football/Soccer",
+            "gender": "https://schema.org/Male",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10261.png",
+            "url": "https://www.fotmob.com/teams/10261/overview/newcastle-united",
+            "coach": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Eddie Howe",
+                "url": "https://www.fotmob.com/players/23630/eddie-howe",
+                "nationality": null,
+                "affiliation": null,
+                "height": null,
+                "weight": null
+            },
+            "athlete": [
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Martin Dubravka",
+                    "url": "https://www.fotmob.com/players/72241/martin-dubravka",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Slovakia"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Mark Gillespie",
+                    "url": "https://www.fotmob.com/players/195668/mark-gillespie",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Nick Pope",
+                    "url": "https://www.fotmob.com/players/280484/nick-pope",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Loris Karius",
+                    "url": "https://www.fotmob.com/players/287894/loris-karius",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Germany"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Daniel Burn",
+                    "url": "https://www.fotmob.com/players/188058/daniel-burn",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Fabian Schär",
+                    "url": "https://www.fotmob.com/players/189982/fabian-schar",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Switzerland"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Kieran Trippier",
+                    "url": "https://www.fotmob.com/players/191869/kieran-trippier",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Emil Krafth",
+                    "url": "https://www.fotmob.com/players/259306/emil-krafth",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Sweden"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Jamaal Lascelles",
+                    "url": "https://www.fotmob.com/players/279489/jamaal-lascelles",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Javier Manquillo",
+                    "url": "https://www.fotmob.com/players/299984/javier-manquillo",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Spain"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Paul Dummett",
+                    "url": "https://www.fotmob.com/players/308932/paul-dummett",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Wales"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Matt Targett",
+                    "url": "https://www.fotmob.com/players/538112/matt-targett",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Sven Botman",
+                    "url": "https://www.fotmob.com/players/956682/sven-botman",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Netherlands"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Valentino Livramento",
+                    "url": "https://www.fotmob.com/players/1107910/valentino-livramento",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Lewis Hall",
+                    "url": "https://www.fotmob.com/players/1197655/lewis-hall",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Joelinton",
+                    "url": "https://www.fotmob.com/players/535936/joelinton",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Brazil"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Sean Longstaff",
+                    "url": "https://www.fotmob.com/players/820024/sean-longstaff",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Bruno Guimaraes",
+                    "url": "https://www.fotmob.com/players/850354/bruno-guimaraes",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Brazil"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Joseph Willock",
+                    "url": "https://www.fotmob.com/players/860975/joseph-willock",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Sandro Tonali",
+                    "url": "https://www.fotmob.com/players/867414/sandro-tonali",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Italy"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Elliot Anderson",
+                    "url": "https://www.fotmob.com/players/1089691/elliot-anderson",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Scotland"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Lewis Miley",
+                    "url": "https://www.fotmob.com/players/1296763/lewis-miley",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Matt Ritchie",
+                    "url": "https://www.fotmob.com/players/155913/matt-ritchie",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Scotland"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Callum Wilson",
+                    "url": "https://www.fotmob.com/players/184321/callum-wilson",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Miguel Almiron",
+                    "url": "https://www.fotmob.com/players/442277/miguel-almiron",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Paraguay"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Jacob Murphy",
+                    "url": "https://www.fotmob.com/players/521148/jacob-murphy",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Alexander Isak",
+                    "url": "https://www.fotmob.com/players/690107/alexander-isak",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "Sweden"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Harvey Barnes",
+                    "url": "https://www.fotmob.com/players/760359/harvey-barnes",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Anthony Gordon",
+                    "url": "https://www.fotmob.com/players/906937/anthony-gordon",
+                    "nationality": {
+                        "@type": "Country",
+                        "name": "England"
+                    },
+                    "affiliation": null,
+                    "height": null,
+                    "weight": null
+                }
+            ],
+            "location": {
+                "@type": "Place",
+                "name": "St. James' Park",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "England",
+                    "addressLocality": "Newcastle upon Tyne"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "54.975540",
+                    "longitude": "-1.621621"
+                }
+            },
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Premier League",
+                "url": "https://www.fotmob.com/leagues/47/overview/premier-league"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Premier League",
+                    "item": "https://www.fotmob.com/leagues/47/overview/premier-league"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Newcastle United",
+                    "item": "https://www.fotmob.com/teams/10261/overview/newcastle-united"
+                }
+            ]
+        },
+        "canSyncCalendar": true
+    }
+]
