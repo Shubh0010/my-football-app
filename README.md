@@ -34,14 +34,10 @@ Normal JS utility functions
     - create State Variabled in react
     - maintains state of the component
     - how to create? 
-
       const [clubs] = useState(clubData);
-    
     - how to update?
-
       const [clubs, setClubList] = useState(clubData);
       setClubList(updatedList);
-    
     - whenever state variable changes, React re-renders the component.
 
  - useEffect()
