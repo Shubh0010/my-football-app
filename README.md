@@ -56,3 +56,9 @@ We follow approach 2 in react.
 # Shimmer UI
 
 - We load a fake page until the data is coming from API.
+
+# Search (Input)
+
+- To get the value we need to bind the value to state variable
+- Since the value is bind to the state varibale, so it won't type anything, then we need to use onChange method
+  - onChange={e => setsearchText(e.target.value)}

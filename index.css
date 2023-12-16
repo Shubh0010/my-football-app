@@ -37,7 +37,12 @@
 }
 
 .body .search {
-  margin-left: 95%;
+  margin-left: 85%;
+  display: flex;
+}
+
+.search-box {
+  margin-right: 1%;
 }
 
 .body .club-container {
