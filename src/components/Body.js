@@ -2,39 +2,26 @@ import clubData from '../utils/clubData.json';
 import ClubCard from './ClubCard';
 import { useState, useEffect } from 'react';
 import Shimmer from './Shimmer';
+import { GET_CLUB_URL } from '../utils/constant';
 
 const Body = () => {
 
+  const [top10ClubsButton, settop10ClubsButton] = useState('Top 10 Premier League Clubs');
+
   const [clubs, setClubList] = useState([]);
 
-  useEffect(()=> {
-    fetchClub();
+  useEffect(() => {
+    fetchClub(setClubList);
   }, []);
 
-  const fetchClub = async () => {
-
-    const data = await fetch(
-      `https://onefootball.com/_next/data/54077c7fb835/en/competition/premier-league-9/table.json?competition-id=premier-league-9&entity-page=table`
-    );
-
-    const json = await data.json();
-
-    setClubList(json?.pageProps?.containers[4]?.type?.fullWidth?.component?.contentType?.standings?.rows || clubData);
-  }
-
   return clubs.length === 0 ? (
-    <Shimmer/>
+    <Shimmer />
   ) : (
     <div className='body'>
       <div className='filter'>
-        <button 
-          className='filter-btn'
-          onClick={()=> {
-            setClubList(clubs.filter(club => club.sportsTeamJSONLD.memberOf.name == 'Premier League'));
-          }}
-        >
-            Premier League
-        </button>
+        <button className='filter-btn'  onClick={
+          () => filterClubs(fetchClub, settop10ClubsButton, setClubList, top10ClubsButton)
+        }>  {top10ClubsButton}  </button>
       </div>
       <div className='search'> Search </div>
       <div className='club-container'>
@@ -48,5 +35,23 @@ const Body = () => {
     </div>
   );
 };
+
+const fetchClub = async (setClubList) => {
+
+  const data = await fetch(GET_CLUB_URL);
+  const json = await data.json();
+
+  setClubList(json?.pageProps?.containers[4]?.type?.fullWidth?.component?.contentType?.standings?.rows || clubData);
+}
+
+const filterClubs = (fetchClub, settop10ClubsButton, setClubList, top10ClubsButton) => {
+  if (top10ClubsButton == 'All PL Clubs') {
+    fetchClub(setClubList);
+    settop10ClubsButton('Top 10 Premier League Clubs');
+  } else {
+    setClubList(clubs.filter(club => club.position <= '10'));
+    settop10ClubsButton('All PL Clubs');
+  }
+}
 
 export default Body;
