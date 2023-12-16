@@ -41,3 +41,18 @@ Normal JS utility functions
     - whenever state variable changes, React re-renders the component.
 
  - useEffect()
+    - used for API call.
+    - useEffect(callback function, dependency array);
+      - the callback function will trigger once component renders.
+
+# How to do API calls
+
+Approach 1. page loads -> API hits -> render
+Approach 2. page loags -> render -> API call -> Re-render
+
+We follow approach 2 in react.
+
+
+# Shimmer UI
+
+- We load a fake page until the data is coming from API.

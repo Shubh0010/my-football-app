@@ -5,12 +5,13 @@ const ClubCard = ({ club }) => {
       <img
         className='club-logo'
         alt='club-logo'
-        src={club.sportsTeamJSONLD.logo}
+        src={club.imageObject.path}
       />
-      <h3 className='club-name'>{club.name}</h3>
-      <h4 className='club-league'>{club.sportsTeamJSONLD?.memberOf?.name}</h4>
-      <h4 className='club-stadium'>{club.sportsTeamJSONLD?.location?.name}</h4>
-      <h4 className='club-coach'>{club.sportsTeamJSONLD?.coach?.name}</h4>
+      <h3 className='club-name'>{club.teamName}</h3>
+      <h4 className='club-rank'>Rank: {club.position}</h4>
+      <h4 className='club-points'>Current Points: {club.points}</h4>
+      <h4 className='club-matches-played'>Matches Played: {club.playedMatchesCount}</h4>
+      <h4 className='club-matches-won'>Matches Won: {club.wonMatchesCount}</h4>
     </div>
   );
 }

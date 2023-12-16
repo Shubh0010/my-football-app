@@ -1,10 +1,34 @@
 import clubData from '../utils/clubData.json';
 import ClubCard from './ClubCard';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { LEAGUES_STARTING_IDS } from '../utils/constant';
 
 const Body = () => {
 
-  const [clubs, setClubList] = useState(clubData);
+  const [clubs, setClubList] = useState([]);
+
+  useEffect(()=> {
+    fetchClub();
+  }, []);
+
+  const fetchClub = async () => {
+
+    const data = await fetch(
+      `https://onefootball.com/_next/data/54077c7fb835/en/competition/premier-league-9/table.json?competition-id=premier-league-9&entity-page=table`
+    );
+
+    const json = await data.json();
+
+    setClubList(json?.pageProps?.containers[4]?.type?.fullWidth?.component?.contentType?.standings?.rows || clubData);
+  }
+
+  if(clubs.length === 0) {
+    
+    // We can either show a loading page
+    // return <h1>Loading...</h1>
+
+    // We can use Shimmer UI
+  }
 
   return (
     <div className='body'>
@@ -22,7 +46,7 @@ const Body = () => {
       <div className='club-container'>
         {
           clubs.map(club => (
-            <ClubCard key={club.id} club={club} />
+            <ClubCard key={club.uiKey} club={club} />
           ))
         }
 

@@ -6,7 +6,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #2ecc71, #a1dc90);
+    border-image-slice: 1;
     max-height: 70px;
     padding: 1%;
 }
@@ -45,6 +47,7 @@
             margin: 2%;
             transition: background-color 0.3s;
             padding: 2%;
+            max-width: 12%;
         }
         .body .club-container .club-card:hover {
             /* Your styles when the container is hovered */
@@ -60,9 +63,10 @@
               justify-content: center;
               align-items: center;
           }
-            .body .club-container .club-card .club-coach,
-            .body .club-container .club-card .club-stadium,
-            .body .club-container .club-card .club-league {
-                margin-left: 25%;
+            .body .club-container .club-card .club-rank,
+            .body .club-container .club-card .club-points,
+            .body .club-container .club-card .club-matches-played,
+            .body .club-container .club-card .club-matches-won {
+                margin-left: 12%;
                 font-weight: lighter;
             }
