@@ -2,6 +2,7 @@ import clubData from '../utils/clubData.json';
 import ClubCard from './ClubCard';
 import { useState, useEffect } from 'react';
 import { LEAGUES_STARTING_IDS } from '../utils/constant';
+import Shimmer from './Shimmer';
 
 const Body = () => {
 
@@ -22,12 +23,15 @@ const Body = () => {
     setClubList(json?.pageProps?.containers[4]?.type?.fullWidth?.component?.contentType?.standings?.rows || clubData);
   }
 
+  //conditional rendering
+  
   if(clubs.length === 0) {
     
     // We can either show a loading page
     // return <h1>Loading...</h1>
 
     // We can use Shimmer UI
+    return <Shimmer/>
   }
 
   return (
