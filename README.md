@@ -67,3 +67,9 @@ We follow approach 2 in react.
 - To get the value we need to bind the value to state variable
 - Since the value is bind to the state varibale, so it won't type anything, then we need to use onChange method
   - onChange={e => setsearchText(e.target.value)}
+
+# react-router-dom npm
+
+- create routing configuration in app.js
+- useRouteError: a hook given by react-router-dom
+  - gives more details about error
