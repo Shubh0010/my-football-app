@@ -6,4 +6,4 @@ export const LEAGUES_STARTING_IDS = {
 }
 
 export const GET_CLUB_URL = 
-"https://onefootball.com/_next/data/54077c7fb835/en/competition/premier-league-9/table.json?competition-id=premier-league-9&entity-page=table";
+"https://onefootball.com/_next/data/15cc6d56f7b7/en/competition/premier-league-9/table.json?competition-id=premier-league-9&entity-page=table";
