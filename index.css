@@ -55,7 +55,6 @@
   margin: 2%;
   transition: background-color 0.3s;
   padding: 2%;
-  max-width: 12%;
 }
 
 .body .club-container .club-card:hover {
@@ -101,4 +100,33 @@
   width: 150px;
   height: 250px;
   /* max-width: 12%; */
+}
+
+.player-card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.player-card {
+  width: 15%;
+  margin: 2%
+}
+
+.player-links {
+  margin: 2%;
+  width: 21%;
+}
+
+.player-links:hover {
+  color: black;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #007bff;
 }

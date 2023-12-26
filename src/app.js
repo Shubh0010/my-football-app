@@ -6,6 +6,7 @@ import About from './components/About';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import Contact from './components/Contact';
 import Error from './components/Error';
+import Squad from './components/Squad';
 
 const AppLayout = () => {
   return (
@@ -32,6 +33,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact/>,
+      },
+      {
+        path: "/club-squad/:clubRef",
+        element: <Squad/>,
       },
     ],
     errorElement: <Error/>,

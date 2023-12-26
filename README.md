@@ -68,8 +68,13 @@ We follow approach 2 in react.
 - Since the value is bind to the state varibale, so it won't type anything, then we need to use onChange method
   - onChange={e => setsearchText(e.target.value)}
 
+# Routing in web apps
+
+- Server side routing (where we had different about.html/ and using a network call we get about.html page)
+- Client side routing (the one react uses)
 # react-router-dom npm
 
 - create routing configuration in app.js
 - useRouteError: a hook given by react-router-dom
   - gives more details about error
+- Due to Links funcitonlity, react is called as single page application.

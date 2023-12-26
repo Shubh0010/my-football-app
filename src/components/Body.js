@@ -3,6 +3,7 @@ import ClubCard from './ClubCard';
 import { useState, useEffect } from 'react';
 import Shimmer from './Shimmer';
 import { GET_CLUB_URL } from '../utils/constant';
+import { Link } from 'react-router-dom';
 
 const Body = () => {
 
@@ -60,7 +61,9 @@ const Body = () => {
       <div className='club-container'>
         {
           filteredClubs.map(club => (
-            <ClubCard key={club.uiKey} club={club} />
+            <Link className="player-links" key={club.uiKey} to={"/club-squad/" + club.teamPath.split('/')[club.teamPath.split('/').length - 1]}>
+              <ClubCard club={club} />
+            </Link>
           ))
         }
 
