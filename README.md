@@ -39,11 +39,16 @@ Normal JS utility functions
       const [clubs, setClubList] = useState(clubData);
       setClubList(updatedList);
     - whenever state variable changes, React re-renders the component.
+    - never create a usestate outside the component
+    - don't use useState inside a if condition, function or for loop.
 
  - useEffect()
     - used for API call.
     - useEffect(callback function, dependency array);
       - the callback function will trigger once component renders.
+      - if no dependency array => useEffect is called on every render.
+      - if dependency array is empty => then useeffect is called on only initial render.
+      - if there is something in dependecy => then useeffect is called every time the dependency changes
 
 # How to do API calls
 
