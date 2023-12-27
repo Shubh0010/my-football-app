@@ -85,3 +85,37 @@ We follow approach 2 in react.
 - class extends React.Component
 - has a render function that return jsx
 - we can receive the props, we receive inside the constructor, we need to use super(props) too.
+- *how to use state variables*
+  - whenever an instance of a class is created, state is created.
+  - using this.state inside constructor
+  - *updating the state variable in class based component*
+    - this.setState({})
+- class based component lifecycle
+  - 3 lifecycles
+    - Mounting
+    - Updating
+    - Unmounting
+  - react life cycle diagram, https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+  - Mounting
+    - contructor -> Render -> component did mount
+    - if there is a child component, it's life cycle will be completed, than parent will be mounted.
+    - in case of multiple child, 
+      - child1 constructor
+      - child1 render
+      - child2 constructor
+      - child2 render
+      - child1 didMount
+      - child2 didMount
+    - 2 phases
+      - render (contructor, render)
+      - commit (componentDidMount), in this phase, react update the DOM and refs, in a single batch
+    - componentDidMount is generally used to make API calls
+  - Updating
+    - componentDidUdpate, this is called later on on update cycle
+      - on update cycle, render gets called first, and then componentDidUdpate
+  - Unmounting
+    - ComponentWillUnmount will get called once our component is going to replace with something else, foe example, if we navigate to another page.
+    - use case:
+      - we need to clear things, before clearing page
+      - for example if we had a setTimeout, and we change page, that seTimeout won't get cleared automatically, and if you come to that page again, it will start another timeout
+    - In functional component, the return function of useEffect acts as ComponentWillUnmount.
