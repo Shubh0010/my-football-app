@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './components/Header';
 import Body from './components/Body';
@@ -7,6 +7,10 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import Contact from './components/Contact';
 import Error from './components/Error';
 import Squad from './components/Squad';
+
+//lazy loading
+
+const LaLiga = lazy(() => import("./components/LaLiga"));
 
 const AppLayout = () => {
   return (
@@ -20,29 +24,33 @@ const AppLayout = () => {
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <AppLayout/>,
+    element: <AppLayout />,
     children: [
       {
         path: "/",
-        element: <Body/>,
+        element: <Body />,
       },
       {
         path: "/about",
-        element: <About/>,
+        element: <About />,
       },
       {
         path: "/contact",
-        element: <Contact/>,
+        element: <Contact />,
       },
       {
         path: "/club-squad/:clubRef",
-        element: <Squad/>,
+        element: <Squad />,
+      },
+      {
+        path: "/la-liga",
+        element: <Suspense fallback={<h1>loading!!</h1>}><LaLiga /></Suspense>,
       },
     ],
-    errorElement: <Error/>,
+    errorElement: <Error />,
   },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<RouterProvider router={appRouter}/>);
+root.render(<RouterProvider router={appRouter} />); 

@@ -123,3 +123,9 @@ We follow approach 2 in react.
 # Custom hooks
 
 - we can create custom hooks as a utiliy function, and use the hooks in our components.
+
+# Chunking / Code Splitting / Lazy loading / Dynamic bundling / On-demad loading
+
+- we can use lazy for lazy loading.
+- it creates a different bundle.
+- when we go to that on depand page, react throws an error, coz it expects the code to be there, but file take some time to load, to fix this we have `Suspense`
