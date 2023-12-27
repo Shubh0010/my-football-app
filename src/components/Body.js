@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Shimmer from './Shimmer';
 import { GET_CLUB_URL } from '../utils/constant';
 import { Link } from 'react-router-dom';
+import useOnlineStatus from '../utils/useOnlineStatus';
 
 const Body = () => {
 
@@ -25,6 +26,12 @@ const Body = () => {
   
     setClubList(json?.pageProps?.containers[4]?.type?.fullWidth?.component?.contentType?.standings?.rows || clubData);
     setFilteredClubs(json?.pageProps?.containers[4]?.type?.fullWidth?.component?.contentType?.standings?.rows || clubData);
+  }
+
+  const onlineStatus = useOnlineStatus();
+
+  if (!onlineStatus) {
+    return <h1>Looks like you are offline!</h1>
   }
 
   return clubs.length === 0 ? (

@@ -130,3 +130,7 @@ a {
 a:hover {
   color: #007bff;
 }
+
+.online-status {
+  margin: 6px !important;
+}
