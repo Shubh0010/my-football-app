@@ -119,3 +119,7 @@ We follow approach 2 in react.
       - we need to clear things, before clearing page
       - for example if we had a setTimeout, and we change page, that seTimeout won't get cleared automatically, and if you come to that page again, it will start another timeout
     - In functional component, the return function of useEffect acts as ComponentWillUnmount.
+
+# Custom hooks
+
+- we can create custom hooks as a utiliy function, and use the hooks in our components.

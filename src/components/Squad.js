@@ -1,24 +1,14 @@
-import { useState, useEffect } from "react";
+
 import Shimmer from "./Shimmer";
 import PlayerCard from "./PlayerCard";
 import { useParams } from "react-router-dom";
-import { GET_SQUAD } from "../utils/constant";
+import useSquads from "../utils/useSquads";
 
 const Squad = () => {
 
-  const [squadData, setSquadData] = useState({});
-
   const { clubRef } = useParams();
 
-  useEffect(() => {
-    fetchSquad();
-  }, []);
-
-  const fetchSquad = async () => {
-    const data = await fetch(GET_SQUAD.replace('{clubRef}', clubRef));
-    const json = await data.json();
-    setSquadData(json?.pageProps);
-  }
+  const squadData = useSquads(clubRef);
 
   return !squadData?.containers ? (
     <Shimmer />
