@@ -72,9 +72,16 @@ We follow approach 2 in react.
 
 - Server side routing (where we had different about.html/ and using a network call we get about.html page)
 - Client side routing (the one react uses)
+
 # react-router-dom npm
 
 - create routing configuration in app.js
 - useRouteError: a hook given by react-router-dom
   - gives more details about error
 - Due to Links funcitonlity, react is called as single page application.
+
+# class based component
+
+- class extends React.Component
+- has a render function that return jsx
+- we can receive the props, we receive inside the constructor, we need to use super(props) too.
