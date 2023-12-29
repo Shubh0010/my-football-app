@@ -13,9 +13,11 @@ const Squad = () => {
   return !squadData?.containers ? (
     <Shimmer />
   ) : (
-    <div className="squad">
-      <h1>{squadData?.containers[1]?.type?.fullWidth?.component?.contentType?.entityTitle?.title}</h1>
-      <div className="player-card-container">
+    <div className="bg-green-100">
+      <div className="text-slate-700 text-6xl font-extrabold p-8 ml-80">
+        {squadData?.containers[1]?.type?.fullWidth?.component?.contentType?.entityTitle?.title}
+      </div>
+      <div className="flex flex-wrap p-4">
         {[
           ...squadData.containers[3]?.type?.fullWidth?.component?.contentType?.entityNavigation?.links || [],
           ...squadData.containers[4]?.type?.fullWidth?.component?.contentType?.entityNavigation?.links || [],

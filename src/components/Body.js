@@ -23,7 +23,7 @@ const Body = () => {
 
     const data = await fetch(GET_CLUB_URL);
     const json = await data.json();
-  
+
     setClubList(json?.pageProps?.containers[4]?.type?.fullWidth?.component?.contentType?.standings?.rows || clubData);
     setFilteredClubs(json?.pageProps?.containers[4]?.type?.fullWidth?.component?.contentType?.standings?.rows || clubData);
   }
@@ -37,35 +37,37 @@ const Body = () => {
   return clubs.length === 0 ? (
     <Shimmer />
   ) : (
-    <div className='body'>
-      <div className='filter'>
-        <button className='filter-btn'  onClick={
-          () => {
-            if (top10ClubsButton == 'All PL Clubs') {
-              setFilteredClubs(clubs);
-              settop10ClubsButton('Top 10 Premier League Clubs');
-            } else {
-              setFilteredClubs(clubs.filter(club => club.position <= '10'));
-              settop10ClubsButton('All PL Clubs');
+    <div className='bg-green-100'>
+      <div className='flex justify-between p-2'>
+        <div className='filter'>
+          <button className='bg-green-400 p-2 rounded-2xl text-gray-600 mt-5' onClick={
+            () => {
+              if (top10ClubsButton == 'All PL Clubs') {
+                setFilteredClubs(clubs);
+                settop10ClubsButton('Top 10 Premier League Clubs');
+              } else {
+                setFilteredClubs(clubs.filter(club => club.position <= '10'));
+                settop10ClubsButton('All PL Clubs');
+              }
             }
-          }
-        }>  {top10ClubsButton}  </button>
+          }>  {top10ClubsButton}  </button>
+        </div>
+        <div className='flex p-1'>
+          <input
+            type='text'
+            className='m-4 h-6 bg-gray-50 outline-green-600'
+            value={searchText}
+            onChange={e => {
+              setsearchText(e.target.value)
+            }}
+          />
+          <button className='text-gray-600 px-2 py-1 rounded-xl bg-green-400 mt-3 h-8' onClick={() => {
+            let filteredResultrants = clubs.filter(club => club.teamName.toLowerCase().includes(searchText.toLowerCase()))
+            setFilteredClubs(filteredResultrants);
+          }}><h6>Search</h6></button>
+        </div>
       </div>
-      <div className='search'>
-        <input 
-          type='text' 
-          className='search-box' 
-          value={searchText}
-          onChange={e => {
-            setsearchText(e.target.value)
-          }}
-        />
-        <button onClick={()=> {
-          let filteredResultrants = clubs.filter(club => club.teamName.toLowerCase().includes(searchText.toLowerCase()))
-          setFilteredClubs(filteredResultrants);
-        }}>Search</button>
-      </div>
-      <div className='club-container'>
+      <div className='flex flex-wrap p-4'>
         {
           filteredClubs.map(club => (
             <Link className="player-links" key={club.uiKey} to={"/club-squad/" + club.teamPath.split('/')[club.teamPath.split('/').length - 1]}>
