@@ -35,7 +35,7 @@ class AboutMemberClass extends React.Component {
     const {name, location, email} = this.props;
 
     return (
-      <div className="aboutmember-card">
+      <div className="m-10">
         <h2>{this.state.memberInfo.name}</h2>
         <h3>{this.state.memberInfo.location}</h3>
         <h3>{this.state.memberInfo.email}</h3>

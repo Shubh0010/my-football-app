@@ -35,7 +35,7 @@ const Body = () => {
   }
 
   return clubs.length === 0 ? (
-    <Shimmer />
+        <Shimmer />
   ) : (
     <div className='bg-green-100'>
       <div className='flex justify-between p-2'>
