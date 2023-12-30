@@ -11,7 +11,10 @@ const Squad = () => {
 
   const squadData = useSquads(clubRef);
 
-  const [showIndex, setShowIndex] = useState();
+  const [showIndex, setShowIndex] = useState({
+    index: 0,
+    listItems: false
+  });
 
   const playerCategories = [
     squadData?.containers?.[3],
@@ -32,9 +35,12 @@ const Squad = () => {
           <PlayerCategory
             key={playerCategory.uiKey}
             playerCategoryData={playerCategory}
-            showItems={index == showIndex ? true : false}
+            showItems={showIndex.index == index && showIndex.listItems ? true : false}
             setShowItems={ () => {
-              setShowIndex(index)
+              setShowIndex({
+                index,
+                listItems: !showIndex.listItems
+              })
             }}
           />
         ))}

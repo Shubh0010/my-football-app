@@ -1,4 +1,3 @@
-import { useState } from "react";
 import PlayerCard from "./PlayerCard"
 
 const PlayerCategory = ({ playerCategoryData, showItems, setShowItems }) => {
@@ -11,7 +10,7 @@ const PlayerCategory = ({ playerCategoryData, showItems, setShowItems }) => {
 
   return (
     <div>
-      <div className="bg-gray-50 mx-auto my-4 shadow-lg p-4 w-6/12">
+      <div className="bg-gray-50 mx-auto my-4 shadow-lg p-4 w-6/12 cursor-pointer">
         {/** Header */}
         <div className="flex justify-between m-4 cursor-pointer" onClick={handleClick}>
           <span className="font-bold">{playerCategory?.title}({
