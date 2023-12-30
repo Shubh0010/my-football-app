@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import Contact from './components/Contact';
 import Error from './components/Error';
 import Squad from './components/Squad';
+import UserContext from './utils/UserContext';
 
 //lazy loading
 
@@ -15,7 +16,9 @@ const LaLiga = lazy(() => import("./components/LaLiga"));
 const AppLayout = () => {
   return (
     <div className="app">
-      <Header />
+      <UserContext.Provider value={{ loggedInUser: 'Shubham Negi' }}>
+        <Header />
+      </UserContext.Provider>
       <Outlet />
     </div>
   );

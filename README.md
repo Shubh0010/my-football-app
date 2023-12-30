@@ -134,3 +134,15 @@ We follow approach 2 in react.
 # Higher order component
 
 - takes a component and returns a component
+
+# Lift up state
+
+- controllable variables
+
+# Props Drilling
+
+- sending data from parent to childs
+- react context
+  - Create Context
+  - useContext
+  - UserConsumer.Provider // override a default value

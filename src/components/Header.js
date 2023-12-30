@@ -1,10 +1,14 @@
 import { COMPANY_URL } from "../utils/constant";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import { useContext } from "react";
+import UserContext from "../utils/UserContext";
 
 const Header = () => {
 
   const onlineStatus = useOnlineStatus();
+
+  const {loggedInUser} = useContext(UserContext);
 
   return (
     <div className='flex justify-between bg-green-200 to-green-200 shadow-lg'>
@@ -26,6 +30,7 @@ const Header = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li className="px-4 text-zinc-800 hover:text-zinc-500">Settings</li>
+          <li className="px-4 text-zinc-800 hover:text-zinc-500">{loggedInUser}</li>
           <li>
             {onlineStatus ? "🟢" : "🔴"}
           </li>

@@ -1,4 +1,5 @@
 import React from 'react';
+import UserContext from '../utils/UserContext';
 
 //class based component
 
@@ -32,10 +33,18 @@ class AboutMemberClass extends React.Component {
 
   render() {
 
-    const {name, location, email} = this.props;
+    const { name, location, email } = this.props;
 
     return (
       <div className="m-10">
+        <div>
+          <UserContext.Consumer>
+            
+            { /** Here I can consume the context */
+              (data)=> {}
+            }
+          </UserContext.Consumer>
+        </div>
         <h2>{this.state.memberInfo.name}</h2>
         <h3>{this.state.memberInfo.location}</h3>
         <h3>{this.state.memberInfo.email}</h3>
