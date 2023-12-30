@@ -18,4 +18,20 @@ const ClubCard = ({ club }) => {
   );
 }
 
+// Higher order component
+
+// input - club card =>> club card Favorite
+
+export const favoriteClub = (ClubCard) => {
+
+  return (props) => {
+    return (
+      <div>
+        <label className="absolute bg-red-400 rounded-2xl p-2 text-white">Favorite</label>
+        <ClubCard {...props} />
+      </div>
+    )
+  }
+}
+
 export default ClubCard;

@@ -1,5 +1,5 @@
 import clubData from '../utils/clubData.json';
-import ClubCard from './ClubCard';
+import ClubCard, { favoriteClub } from './ClubCard';
 import { useState, useEffect } from 'react';
 import Shimmer from './Shimmer';
 import { GET_CLUB_URL } from '../utils/constant';
@@ -14,6 +14,8 @@ const Body = () => {
   const [filteredClubs, setFilteredClubs] = useState([]);
 
   const [searchText, setsearchText] = useState('');
+
+  const FavoriteClubCard = favoriteClub(ClubCard);
 
   useEffect(() => {
     fetchClub();
@@ -35,7 +37,7 @@ const Body = () => {
   }
 
   return clubs.length === 0 ? (
-        <Shimmer />
+    <Shimmer />
   ) : (
     <div className='bg-green-100'>
       <div className='flex justify-between p-2'>
@@ -71,7 +73,13 @@ const Body = () => {
         {
           filteredClubs.map(club => (
             <Link className="player-links" key={club.uiKey} to={"/club-squad/" + club.teamPath.split('/')[club.teamPath.split('/').length - 1]}>
-              <ClubCard club={club} />
+              {
+                club.teamPath.split('/')[club.teamPath.split('/').length - 1] == 'manchester-united-21' ? (
+                <FavoriteClubCard club={club} /> 
+                ) : (
+                <ClubCard club={club} />
+                )
+              }
             </Link>
           ))
         }
