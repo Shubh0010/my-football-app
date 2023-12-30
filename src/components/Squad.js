@@ -1,15 +1,17 @@
 
 import Shimmer from "./Shimmer";
-import PlayerCard from "./PlayerCard";
 import { useParams } from "react-router-dom";
 import useSquads from "../utils/useSquads";
 import PlayerCategory from "./PlayerCategory";
+import { useState } from "react";
 
 const Squad = () => {
 
   const { clubRef } = useParams();
 
   const squadData = useSquads(clubRef);
+
+  const [showIndex, setShowIndex] = useState();
 
   const playerCategories = [
     squadData?.containers?.[3],
@@ -26,8 +28,15 @@ const Squad = () => {
         {squadData?.containers[1]?.type?.fullWidth?.component?.contentType?.entityTitle?.title}
       </div>
       <div className="p-4">
-        {playerCategories.map(playerCategory => (
-          <PlayerCategory key={playerCategory.uiKey} playerCategoryData={playerCategory} />
+        {playerCategories.map((playerCategory, index) => (
+          <PlayerCategory
+            key={playerCategory.uiKey}
+            playerCategoryData={playerCategory}
+            showItems={index == showIndex ? true : false}
+            setShowItems={ () => {
+              setShowIndex(index)
+            }}
+          />
         ))}
       </div>
     </div>

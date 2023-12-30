@@ -1,15 +1,13 @@
 import { useState } from "react";
 import PlayerCard from "./PlayerCard"
 
-const PlayerCategory = ({ playerCategoryData }) => {
+const PlayerCategory = ({ playerCategoryData, showItems, setShowItems }) => {
 
   const playerCategory = playerCategoryData?.type?.fullWidth?.component?.contentType?.entityNavigation;
 
-  const [showItems, setShowItems] = useState(false);
-
   const handleClick = () => {
-    setShowItems(!showItems);
-  }
+    setShowItems();
+  };
 
   return (
     <div>
