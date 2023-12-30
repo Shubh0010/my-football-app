@@ -1,9 +1,9 @@
 const PlayerCard = ({player}) => {
   return (
 
-    <div className='m-4 p-4 pb-0 rounded-lg w-60'>
+    <div className='m-4 p-4 rounded-3xl flex bg-gray-200 w-11/12'>
       <img
-        className='w-52 rounded-3xl'
+        className='w-16 rounded-full'
         alt='player-image'
         src={player.logo.path}
       />

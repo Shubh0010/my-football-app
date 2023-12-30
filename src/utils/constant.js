@@ -10,3 +10,9 @@ export const GET_CLUB_URL =
 
 export const GET_SQUAD = 
 "https://onefootball.com/_next/data/15cc6d56f7b7/en/team/{clubRef}/squad.json?team-id={clubRef}&entity-page=squad"
+
+export const GET_FIXTURES = 
+"https://onefootball.com/_next/data/15cc6d56f7b7/en/team/{clubRef}/fixtures.json?team-id={clubRef}&entity-page=fixtures";
+
+export const GET_RESULTS = 
+"https://onefootball.com/_next/data/15cc6d56f7b7/en/team/{clubRef}/results.json?team-id={clubRef}&entity-page=results";
