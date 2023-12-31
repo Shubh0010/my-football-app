@@ -8,6 +8,8 @@ import Contact from './components/Contact';
 import Error from './components/Error';
 import Squad from './components/Squad';
 import UserContext from './utils/UserContext';
+import { Provider } from 'react-redux';
+import appStore from './utils/appStore';
 
 //lazy loading
 
@@ -15,12 +17,15 @@ const LaLiga = lazy(() => import("./components/LaLiga"));
 
 const AppLayout = () => {
   return (
-    <div className="app">
-      <UserContext.Provider value={{ loggedInUser: 'Shubham Negi' }}>
-        <Header />
-      </UserContext.Provider>
-      <Outlet />
-    </div>
+    <Provider store={appStore}>
+      <div className="app">
+        <UserContext.Provider value={{ loggedInUser: 'Shubham Negi' }}>
+          <Header />
+        </UserContext.Provider>
+        <Outlet />
+      </div>
+    </Provider>
+
   );
 }
 

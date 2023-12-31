@@ -146,3 +146,11 @@ We follow approach 2 in react.
   - Create Context
   - useContext
   - UserConsumer.Provider // override a default value
+
+# Redux Toolkit
+  - Install @reduxjs/toolkit and react-redux
+  - build our store
+  - connect our store to our app
+  - create a team Slice.
+  - dispatch(Action)
+  - Selector
