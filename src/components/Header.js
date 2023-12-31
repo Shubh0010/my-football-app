@@ -3,10 +3,13 @@ import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { useContext } from "react";
 import UserContext from "../utils/UserContext";
+import { useSelector } from "react-redux";
 
 const Header = () => {
 
   const onlineStatus = useOnlineStatus();
+
+  const squadLogoData = useSelector((store) => store.squad.items);
 
   const {loggedInUser} = useContext(UserContext);
 
@@ -17,6 +20,9 @@ const Header = () => {
       </div>
       <div className='flex items-center'>
         <ul className="flex p-4 m-4">
+          <li className="px-4 text-zinc-800 hover:text-zinc-500 w-16">
+            <img src={squadLogoData}></img>
+          </li>
           <li className="px-4 text-zinc-800 hover:text-zinc-500">
             <Link to="/la-liga">LaLiga</Link>
           </li>

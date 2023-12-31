@@ -1,7 +1,21 @@
+import { useDispatch } from "react-redux";
+import { addImage } from "../utils/squadSlice";
+
 const ClubCard = ({ club }) => {
+
+  const dispatch = useDispatch();
+
+  const handleAddLogoInHeader = () => {
+
+    dispatch(addImage(club.imageObject.path));
+  }
+
   return (
 
-    <div className='m-6 p-6 pb-0 bg-green-200 rounded-lg w-56 h-96 hover:bg-green-300'>
+    <div 
+      className='m-6 p-6 pb-0 bg-green-200 rounded-lg w-56 h-96 hover:bg-green-300'
+      onClick={handleAddLogoInHeader}
+    >
       <img
         className='size-40'
         alt='club-logo'

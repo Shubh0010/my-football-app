@@ -3,17 +3,17 @@ import { createSlice } from "@reduxjs/toolkit";
 const squadSlice = createSlice({
   name: 'squad',
   initialState: {
-    items: []
+    items: ''
   },
   reducers: {
     addImage: (state, action) => {
-      state.items.push(action.payload);
+      state.items = action.payload;
     },
     removeImage: (state, action) => {
       state.items.pop();
     },
     clearImage: (state) => {
-      state.items.length = 0;
+      state.items = '';
     }
   }
 });
