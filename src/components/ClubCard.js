@@ -14,6 +14,7 @@ const ClubCard = ({ club }) => {
 
     <div 
       className='m-6 p-6 pb-0 bg-green-200 rounded-lg w-56 h-96 hover:bg-green-300'
+      data-testid='club-card'
       onClick={handleAddLogoInHeader}
     >
       <img

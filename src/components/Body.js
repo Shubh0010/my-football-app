@@ -57,6 +57,7 @@ const Body = () => {
         <div className='flex p-1'>
           <input
             type='text'
+            data-testid='club-search-input'
             className='m-4 h-6 bg-gray-50 outline-green-600'
             value={searchText}
             onChange={e => {

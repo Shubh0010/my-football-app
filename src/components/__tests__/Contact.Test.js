@@ -7,6 +7,22 @@ import { describe } from "node:test";
 
 describe('Contact Us page test cases', () => {
 
+  beforeAll(() => {
+    // before running all the test cases do this
+  });
+
+  beforeEach(() => {
+    // before running every test case do this
+  });
+
+  afterAll(() => {
+    // before running all the test cases do this
+  });
+
+  afterEach(() => {
+    // before running every test case do this
+  });
+
   // `it` is just alias for `test`
   it('Should load contact us component', () => {
 

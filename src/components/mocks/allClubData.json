@@ -1,0 +1,1278 @@
+{
+  "pageProps": {
+    "containers": [
+      {
+        "uiKey": "c808d3c",
+        "type": {
+          "$case": "fullWidth",
+          "fullWidth": {
+            "component": {
+              "uiKey": "eee6751",
+              "contentType": {
+                "$case": "googleAdsPlaceholder",
+                "googleAdsPlaceholder": {
+                  "divId": "div-gpt-ad-1666801172198-0",
+                  "adUnitPath": "/38577695/Web_Competition_Page/Web_Competition_Overview_1_Code/Desktop_CO_1_Code",
+                  "sizes": [],
+                  "generalSizes": {
+                    "desktop": [
+                      {
+                        "minWidth": 728,
+                        "minHeight": 90
+                      },
+                      {
+                        "minWidth": 970,
+                        "minHeight": 90
+                      },
+                      {
+                        "minWidth": 970,
+                        "minHeight": 250
+                      }
+                    ],
+                    "tablet": [
+                      {
+                        "minWidth": 728,
+                        "minHeight": 90
+                      }
+                    ],
+                    "mobile": [
+                      {
+                        "minWidth": 320,
+                        "minHeight": 50
+                      },
+                      {
+                        "minWidth": 320,
+                        "minHeight": 100
+                      }
+                    ]
+                  },
+                  "targetingKeywords": [
+                    {
+                      "key": "env",
+                      "value": [
+                        "production"
+                      ]
+                    },
+                    {
+                      "key": "fvc",
+                      "value": [
+                        "1200"
+                      ]
+                    },
+                    {
+                      "key": "flt",
+                      "value": [
+                        "21",
+                        "5",
+                        "18",
+                        "61"
+                      ]
+                    },
+                    {
+                      "key": "cls",
+                      "value": [
+                        "9"
+                      ]
+                    }
+                  ],
+                  "hasBackground": true
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "uiKey": "d362e85",
+        "type": {
+          "$case": "fullWidth",
+          "fullWidth": {
+            "component": {
+              "uiKey": "b1c05c4",
+              "contentType": {
+                "$case": "entityTitle",
+                "entityTitle": {
+                  "title": "Premier League",
+                  "label": "competition",
+                  "subtitle": "",
+                  "imageObject": {
+                    "path": "https://images.onefootball.com/icons/leagueColoredCompetition/128/9.png",
+                    "alt": "Icon: Premier League",
+                    "darkModePath": "",
+                    "isPreloaded": true
+                  },
+                  "likeSettings": {
+                    "isLiked": false,
+                    "likedShape": 2,
+                    "likeEndpoint": {
+                      "name": "Follow",
+                      "urlPath": "",
+                      "trackingEvents": [
+                        {
+                          "type": 3,
+                          "name": "entity_follow",
+                          "clientParameterRequests": [],
+                          "serverParameters": {},
+                          "trackers": [
+                            {
+                              "type": 9,
+                              "trackerParameters": {}
+                            }
+                          ],
+                          "schema": "",
+                          "typedServerParameter": {
+                            "followed_from_deeplink": {
+                              "value": "false",
+                              "type": 3
+                            },
+                            "outcome": {
+                              "value": "login_presented",
+                              "type": 2
+                            },
+                            "entity_type": {
+                              "value": "competition",
+                              "type": 2
+                            },
+                            "follow_level": {
+                              "value": "followed",
+                              "type": 2
+                            },
+                            "entity_id": {
+                              "value": "9",
+                              "type": 2
+                            },
+                            "searched": {
+                              "value": "false",
+                              "type": 3
+                            }
+                          }
+                        }
+                      ],
+                      "nameA11y": "",
+                      "queryParams": {},
+                      "target": 0
+                    },
+                    "unlikedShapeIcon": {
+                      "path": "https://images.onefootball.com/cw/icons/star-shape-light.svg",
+                      "alt": "Unfollow Premier League",
+                      "darkModePath": "https://images.onefootball.com/cw/icons/star-shape-dark.svg",
+                      "isPreloaded": false
+                    },
+                    "size": 2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "uiKey": "f4abbf2",
+        "type": {
+          "$case": "fullWidth",
+          "fullWidth": {
+            "component": {
+              "uiKey": "e4c8c33",
+              "contentType": {
+                "$case": "tabs",
+                "tabs": {
+                  "items": [
+                    {
+                      "uiKey": "11c576c",
+                      "name": "news",
+                      "urlPath": "/en/competition/premier-league-9",
+                      "isActive": false,
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "a725f7c",
+                      "name": "fixtures",
+                      "urlPath": "/en/competition/premier-league-9/fixtures",
+                      "isActive": false,
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "0deb680",
+                      "name": "results",
+                      "urlPath": "/en/competition/premier-league-9/results",
+                      "isActive": false,
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "c10e683",
+                      "name": "table",
+                      "urlPath": "/en/competition/premier-league-9/table",
+                      "isActive": true,
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "967992e",
+                      "name": "Transfers",
+                      "urlPath": "/en/competition/premier-league-9/transfers",
+                      "isActive": false,
+                      "trackingEvents": []
+                    }
+                  ],
+                  "title": "Premier League's pages"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "uiKey": "46a88a8",
+        "type": {
+          "$case": "fullWidth",
+          "fullWidth": {
+            "component": {
+              "uiKey": "a90277e",
+              "contentType": {
+                "$case": "title",
+                "title": {
+                  "hasDelimiter": false,
+                  "text": "Standings",
+                  "size": 6,
+                  "weight": 0
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "uiKey": "7121079",
+        "type": {
+          "$case": "fullWidth",
+          "fullWidth": {
+            "component": {
+              "uiKey": "f6aff46",
+              "contentType": {
+                "$case": "standings",
+                "standings": {
+                  "title": "",
+                  "rows": [
+                    {
+                      "uiKey": "afce84f",
+                      "position": 1,
+                      "positionChange": 0,
+                      "teamName": "Liverpool",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/18.png",
+                        "alt": "Logo: Liverpool",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 19,
+                      "wonMatchesCount": 12,
+                      "drawnMatchesCount": 6,
+                      "lostMatchesCount": 1,
+                      "goalsDiff": 23,
+                      "points": 42,
+                      "teamPath": "/en/team/liverpool-18",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "568cd44",
+                      "position": 2,
+                      "positionChange": 1,
+                      "teamName": "Aston Villa",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/199.png",
+                        "alt": "Logo: Aston Villa",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 13,
+                      "drawnMatchesCount": 3,
+                      "lostMatchesCount": 4,
+                      "goalsDiff": 16,
+                      "points": 42,
+                      "teamPath": "/en/team/aston-villa-199",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "ebf2d2f",
+                      "position": 3,
+                      "positionChange": 1,
+                      "teamName": "Manchester City",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/209.png",
+                        "alt": "Logo: Manchester City",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 19,
+                      "wonMatchesCount": 12,
+                      "drawnMatchesCount": 4,
+                      "lostMatchesCount": 3,
+                      "goalsDiff": 24,
+                      "points": 40,
+                      "teamPath": "/en/team/manchester-city-209",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "4fc9baf",
+                      "position": 4,
+                      "positionChange": 2,
+                      "teamName": "Arsenal",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/2.png",
+                        "alt": "Logo: Arsenal",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 12,
+                      "drawnMatchesCount": 4,
+                      "lostMatchesCount": 4,
+                      "goalsDiff": 17,
+                      "points": 40,
+                      "teamPath": "/en/team/arsenal-2",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "97b4fdb",
+                      "position": 5,
+                      "positionChange": 0,
+                      "teamName": "Tottenham Hotspur",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/202.png",
+                        "alt": "Logo: Tottenham Hotspur",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 12,
+                      "drawnMatchesCount": 3,
+                      "lostMatchesCount": 5,
+                      "goalsDiff": 13,
+                      "points": 39,
+                      "teamPath": "/en/team/tottenham-hotspur-202",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "a94525f",
+                      "position": 6,
+                      "positionChange": 0,
+                      "teamName": "West Ham United",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/198.png",
+                        "alt": "Logo: West Ham United",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 19,
+                      "wonMatchesCount": 10,
+                      "drawnMatchesCount": 3,
+                      "lostMatchesCount": 6,
+                      "goalsDiff": 3,
+                      "points": 33,
+                      "teamPath": "/en/team/west-ham-united-198",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "9ff4852",
+                      "position": 7,
+                      "positionChange": 0,
+                      "teamName": "Manchester United",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/21.png",
+                        "alt": "Logo: Manchester United",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 10,
+                      "drawnMatchesCount": 1,
+                      "lostMatchesCount": 9,
+                      "goalsDiff": -5,
+                      "points": 31,
+                      "teamPath": "/en/team/manchester-united-21",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "f53f6a6",
+                      "position": 8,
+                      "positionChange": 0,
+                      "teamName": "Brighton & Hove Albion",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/670.png",
+                        "alt": "Logo: Brighton & Hove Albion",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 19,
+                      "wonMatchesCount": 8,
+                      "drawnMatchesCount": 6,
+                      "lostMatchesCount": 5,
+                      "goalsDiff": 5,
+                      "points": 30,
+                      "teamPath": "/en/team/brighton-hove-albion-670",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "fd9aa92",
+                      "position": 9,
+                      "positionChange": 0,
+                      "teamName": "Newcastle United",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/207.png",
+                        "alt": "Logo: Newcastle United",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 19,
+                      "wonMatchesCount": 9,
+                      "drawnMatchesCount": 2,
+                      "lostMatchesCount": 8,
+                      "goalsDiff": 12,
+                      "points": 29,
+                      "teamPath": "/en/team/newcastle-united-207",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "8056df0",
+                      "position": 10,
+                      "positionChange": 0,
+                      "teamName": "Chelsea",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/9.png",
+                        "alt": "Logo: Chelsea",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 8,
+                      "drawnMatchesCount": 4,
+                      "lostMatchesCount": 8,
+                      "goalsDiff": 3,
+                      "points": 28,
+                      "teamPath": "/en/team/chelsea-9",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "51fd1da",
+                      "position": 11,
+                      "positionChange": 0,
+                      "teamName": "Wolverhampton Wanderers",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/203.png",
+                        "alt": "Logo: Wolverhampton Wanderers",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 8,
+                      "drawnMatchesCount": 4,
+                      "lostMatchesCount": 8,
+                      "goalsDiff": -1,
+                      "points": 28,
+                      "teamPath": "/en/team/wolverhampton-wanderers-203",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "4d0e71d",
+                      "position": 12,
+                      "positionChange": 0,
+                      "teamName": "AFC Bournemouth",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/622.png",
+                        "alt": "Logo: AFC Bournemouth",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 19,
+                      "wonMatchesCount": 7,
+                      "drawnMatchesCount": 4,
+                      "lostMatchesCount": 8,
+                      "goalsDiff": -7,
+                      "points": 25,
+                      "teamPath": "/en/team/afc-bournemouth-622",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "8cd5e94",
+                      "position": 13,
+                      "positionChange": 0,
+                      "teamName": "Fulham",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/211.png",
+                        "alt": "Logo: Fulham",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 7,
+                      "drawnMatchesCount": 3,
+                      "lostMatchesCount": 10,
+                      "goalsDiff": -7,
+                      "points": 24,
+                      "teamPath": "/en/team/fulham-211",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "507469a",
+                      "position": 14,
+                      "positionChange": 1,
+                      "teamName": "Crystal Palace",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/567.png",
+                        "alt": "Logo: Crystal Palace",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 5,
+                      "drawnMatchesCount": 6,
+                      "lostMatchesCount": 9,
+                      "goalsDiff": -7,
+                      "points": 21,
+                      "teamPath": "/en/team/crystal-palace-567",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "9939bbb",
+                      "position": 15,
+                      "positionChange": 1,
+                      "teamName": "Nottingham Forest",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/577.png",
+                        "alt": "Logo: Nottingham Forest",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 5,
+                      "drawnMatchesCount": 5,
+                      "lostMatchesCount": 10,
+                      "goalsDiff": -11,
+                      "points": 20,
+                      "teamPath": "/en/team/nottingham-forest-577",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "540133b",
+                      "position": 16,
+                      "positionChange": 2,
+                      "teamName": "Brentford",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/671.png",
+                        "alt": "Logo: Brentford",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 19,
+                      "wonMatchesCount": 5,
+                      "drawnMatchesCount": 4,
+                      "lostMatchesCount": 10,
+                      "goalsDiff": -5,
+                      "points": 19,
+                      "teamPath": "/en/team/brentford-671",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "6414a61",
+                      "position": 17,
+                      "positionChange": 0,
+                      "teamName": "Everton",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/197.png",
+                        "alt": "Logo: Everton",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 8,
+                      "drawnMatchesCount": 2,
+                      "lostMatchesCount": 10,
+                      "goalsDiff": -4,
+                      "points": 16,
+                      "teamPath": "/en/team/everton-197",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "e30723b",
+                      "position": 18,
+                      "positionChange": 0,
+                      "teamName": "Luton Town",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/599.png",
+                        "alt": "Logo: Luton Town",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 19,
+                      "wonMatchesCount": 4,
+                      "drawnMatchesCount": 3,
+                      "lostMatchesCount": 12,
+                      "goalsDiff": -14,
+                      "points": 15,
+                      "teamPath": "/en/team/luton-town-599",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "cf13b16",
+                      "position": 19,
+                      "positionChange": 0,
+                      "teamName": "Burnley",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/275.png",
+                        "alt": "Logo: Burnley",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 3,
+                      "drawnMatchesCount": 2,
+                      "lostMatchesCount": 15,
+                      "goalsDiff": -21,
+                      "points": 11,
+                      "teamPath": "/en/team/burnley-275",
+                      "trackingEvents": []
+                    },
+                    {
+                      "uiKey": "851eb9d",
+                      "position": 20,
+                      "positionChange": 0,
+                      "teamName": "Sheffield United",
+                      "imageObject": {
+                        "path": "https://images.onefootball.com/icons/teams/164/583.png",
+                        "alt": "Logo: Sheffield United",
+                        "darkModePath": "",
+                        "isPreloaded": false
+                      },
+                      "playedMatchesCount": 20,
+                      "wonMatchesCount": 2,
+                      "drawnMatchesCount": 3,
+                      "lostMatchesCount": 15,
+                      "goalsDiff": -34,
+                      "points": 9,
+                      "teamPath": "/en/team/sheffield-united-583",
+                      "trackingEvents": []
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "trackingEvents": [],
+    "metaTags": [
+      {
+        "content": "See the current Premier League table and standings on OneFootball.",
+        "name": "twitter:description",
+        "property": ""
+      },
+      {
+        "content": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fen%2Fcompetition%2F9",
+        "name": "twitter:image",
+        "property": ""
+      },
+      {
+        "content": "summary_large_image",
+        "name": "twitter:card",
+        "property": ""
+      },
+      {
+        "content": "https://onefootball.com/en/competition/premier-league-9/table",
+        "name": "twitter:url",
+        "property": ""
+      },
+      {
+        "content": "Check out the Premier League standings via OneFootball",
+        "name": "twitter:title",
+        "property": ""
+      },
+      {
+        "content": "onefootball://competition/9?seasonId=40791&view=table",
+        "name": "twitter:app:url:googleplay",
+        "property": ""
+      },
+      {
+        "content": "onefootball://competition/9?seasonId=40791&view=table",
+        "name": "twitter:app:url:ipad",
+        "property": ""
+      },
+      {
+        "content": "onefootball://competition/9?seasonId=40791&view=table",
+        "name": "twitter:app:url:iphone",
+        "property": ""
+      },
+      {
+        "content": "de.motain.iliga",
+        "name": "twitter:app:id:googleplay",
+        "property": ""
+      },
+      {
+        "content": "382002079",
+        "name": "twitter:app:id:ipad",
+        "property": ""
+      },
+      {
+        "content": "382002079",
+        "name": "twitter:app:id:iphone",
+        "property": ""
+      },
+      {
+        "content": "OneFootball",
+        "name": "twitter:app:name:googleplay",
+        "property": ""
+      },
+      {
+        "content": "OneFootball",
+        "name": "twitter:app:name:ipad",
+        "property": ""
+      },
+      {
+        "content": "OneFootball",
+        "name": "twitter:app:name:iphone",
+        "property": ""
+      },
+      {
+        "content": "OneFootball",
+        "name": "twitter:creator",
+        "property": ""
+      },
+      {
+        "content": "630",
+        "name": "twitter:image:height",
+        "property": ""
+      },
+      {
+        "content": "1200",
+        "name": "twitter:image:width",
+        "property": ""
+      },
+      {
+        "content": "OneFootball",
+        "name": "twitter:site",
+        "property": ""
+      },
+      {
+        "content": "See the current Premier League table and standings on OneFootball.",
+        "name": "",
+        "property": "og:description"
+      },
+      {
+        "content": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fen%2Fcompetition%2F9",
+        "name": "",
+        "property": "og:image"
+      },
+      {
+        "content": "https://onefootball.com/en/competition/premier-league-9/table",
+        "name": "",
+        "property": "og:url"
+      },
+      {
+        "content": "Check out the Premier League standings via OneFootball",
+        "name": "",
+        "property": "og:title"
+      },
+      {
+        "content": "website",
+        "name": "",
+        "property": "og:type"
+      },
+      {
+        "content": "630",
+        "name": "",
+        "property": "og:image:height"
+      },
+      {
+        "content": "1200",
+        "name": "",
+        "property": "og:image:width"
+      },
+      {
+        "content": "OneFootball",
+        "name": "",
+        "property": "og:site_name"
+      },
+      {
+        "content": "279290055543413",
+        "name": "",
+        "property": "fb:app_id"
+      },
+      {
+        "content": "OneFootball",
+        "name": "",
+        "property": "al:android:app_name"
+      },
+      {
+        "content": "de.motain.iliga",
+        "name": "",
+        "property": "al:android:package"
+      },
+      {
+        "content": "onefootball://competition/9?seasonId=40791&view=table",
+        "name": "",
+        "property": "al:android:url"
+      },
+      {
+        "content": "OneFootball",
+        "name": "",
+        "property": "al:ios:app_name"
+      },
+      {
+        "content": "382002079",
+        "name": "",
+        "property": "al:ios:app_store_id"
+      },
+      {
+        "content": "onefootball://competition/9?seasonId=40791&view=table",
+        "name": "",
+        "property": "al:ios:url"
+      },
+      {
+        "content": "true",
+        "name": "",
+        "property": "al:web:should_fallback"
+      },
+      {
+        "content": "See the current Premier League table and standings on OneFootball.",
+        "name": "description",
+        "property": ""
+      }
+    ],
+    "linkTags": [
+      {
+        "rel": "canonical",
+        "href": "https://onefootball.com/en/competition/premier-league-9/table",
+        "hrefLang": ""
+      },
+      {
+        "rel": "alternate",
+        "href": "https://onefootball.com/en/competition/premier-league-9/table",
+        "hrefLang": "x-default"
+      },
+      {
+        "rel": "alternate",
+        "href": "https://onefootball.com/de/wettbewerb/premier-league-9/tabelle",
+        "hrefLang": "de"
+      },
+      {
+        "rel": "alternate",
+        "href": "https://onefootball.com/es/competicion/premier-league-9/clasificacion",
+        "hrefLang": "es"
+      },
+      {
+        "rel": "alternate",
+        "href": "https://onefootball.com/fr/competition/premier-league-9/classement",
+        "hrefLang": "fr"
+      },
+      {
+        "rel": "alternate",
+        "href": "https://onefootball.com/it/competizione/premier-league-9/classifica",
+        "hrefLang": "it"
+      },
+      {
+        "rel": "alternate",
+        "href": "https://onefootball.com/pt-br/competicao/premier-league-9/tabela",
+        "hrefLang": "pt-br"
+      },
+      {
+        "rel": "alternate",
+        "href": "https://onefootball.com/id/kompetisi/premier-league-9/klasemen",
+        "hrefLang": "id"
+      }
+    ],
+    "pageTitle": "Premier League table | OneFootball",
+    "jsonLd": [],
+    "metadata": {
+      "streamName": "CompetitionTable",
+      "httpStatusCode": 0,
+      "streamCreatedAt": "1704133204",
+      "httpHeaders": {}
+    },
+    "refreshConfig": []
+  },
+  "countryCode": "IN",
+  "cloudfront-viewer-country": "IN",
+  "SSR-cloudfront-viewer-country": "IN",
+  "x-forwarded-for": "103.239.140.3, 64.252.98.123,10.0.34.251",
+  "cloudfront-viewer-time-zone": "Asia/Kolkata",
+  "SSR-cloudfront-viewer-time-zone": "Asia/Kolkata",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "uiMode": "auto",
+  "userState": {
+    "kind": "unauthenticated"
+  },
+  "__lang": "en",
+  "__namespaces": {
+    "web-payments": {
+      "404_NOT_FOUND_ALT_TEXT": "Alternatively, you can visit the homepage to view news and highlights",
+      "404_NOT_FOUND_GOTO_HOME": "Go to homepage",
+      "404_NOT_FOUND_HEADER": "Oops! It looks like we cannot find what you were looking for.",
+      "404_NOT_FOUND_TITLE": "Page Not Found",
+      "500_ERROR_ALT_TEXT": "Alternatively, you can visit the homepage to view news and highlights",
+      "500_ERROR_HEADER": "Snap! There has been a technical issue on our site.",
+      "500_ERROR_TITLE": "Error",
+      "ACCOUNT": "Account",
+      "ACCOUNT_PAGE_TITLE": "Edit Your Account",
+      "ACCOUNT_PAGE_DESCRIPTION": "Select the option that you want to change.\n",
+      "ADBLOCKER_BANNER_HEADLINE": "Please disable adblock",
+      "ADBLOCKER_BANNER_SUBLINE": "Then reload the page to watch this content.",
+      "ADD_NEW_CARD": "Add a new card",
+      "ADYEN_CANCELLED_ERROR": "Your payment was declined. Please try another card or choose a different form of payment.",
+      "ADYEN_PROCESSING_ERROR": "There was an error whilst your payment was being processed. Please try again or contact Customer Care.",
+      "ADYEN_REFUSED_ERROR": "Your payment was declined. Please try another card, or choose a different payment method.",
+      "ADYEN_STATUS_AUTHENTICATION_FINISHED": "Authentication complete.",
+      "ADYEN_STATUS_AUTHENTICATION_NOT_REQUIRED": "Authentication is not required to complete this purchase.",
+      "ADYEN_STATUS_AUTHORIZED": "Your payment was successfully authorised. Enjoy the match!",
+      "ADYEN_STATUS_CANCELLED": "Your payment was declined. Please try another card or choose a different payment method.",
+      "ADYEN_STATUS_CHALLENGE_SHOPPER": "Please authenticate your payment so that the purchase can be completed and processed.",
+      "ADYEN_STATUS_ERROR": "There was an error whilst your payment was being processed. Please try again or contact Customer Care.",
+      "ADYEN_STATUS_IDENTIFY_SHOPPER": "Please authenticate your payment so that the purchase can be completed and processed.",
+      "ADYEN_STATUS_PENDING": "Your payment is being processed. Once completed, you will receive your purchase confirmation.",
+      "ADYEN_STATUS_REDIRECT_SHOPPER": "You will be redirected shortly to complete the purchase.",
+      "ADYEN_STATUS_REFUSED": "Your payment was declined. Please try another card or choose a different form of payment.",
+      "ADYEN_UNKNOWN_RESULT_CODE": "There was an error whilst your payment was being processed. Please try again or contact Customer Care.",
+      "ADYEN_UNSPECIFIED_ERROR": "There was an error whilst your payment was being processed. Please try again or contact Customer Care.",
+      "APP_DESCRIPTION": "{{of}} checkout",
+      "APP_TITLE": "Complete your order | {{of}}",
+      "AUTHENTICATION_ERROR": "Your authorization session has expired. You'll be redirected back to the sign-in page in a second...",
+      "BACK_TO_THE_MATCHES_PAGE_BUTTON_LABEL": "Back to the matches page",
+      "BACK_TO_TOP": "Back to top",
+      "BENEFITS_TITLE": "Join OneFootball today and never miss another goal",
+      "BENEFIT_1": "Never miss a goal",
+      "BENEFIT_1_BODY": "Stay connected to your favourite teams, players, and competitions. Get real-time news updates, highlights, and see all upcoming matches.",
+      "BENEFIT_2": "Stream FREE and Pay-Per-View",
+      "BENEFIT_2_BODY": "Instant access to a world of free and pay-per-view matches with lightning-fast checkout.",
+      "BENEFIT_3": "Enjoy Anywhere",
+      "BENEFIT_3_BODY": "Seamlessly synchronise across multiple devices, including smart TVs, and enjoy the game on your preferred screen.",
+      "BILLING_ADDRESS": "Billing Address",
+      "BILLING_ADDRESS_ADDRESS_LABEL": "Address",
+      "BILLING_ADDRESS_ADDRESS_VALIDATION": "Please add a valid address",
+      "BILLING_ADDRESS_CITY_LABEL": "City",
+      "BILLING_ADDRESS_CITY_VALIDATION": "Please add a city",
+      "BILLING_ADDRESS_EMAIL_LABEL": "Email",
+      "BILLING_ADDRESS_EMAIL_VALIDATION": "Please provide a valid email",
+      "BILLING_ADDRESS_FIRST_NAME": "First name",
+      "BILLING_ADDRESS_FIRST_NAME_VALIDATION": "Please add a first name",
+      "BILLING_ADDRESS_FULL_NAME_LABEL": "Full name",
+      "BILLING_ADDRESS_FULL_NAME_VALIDATION": "Please add a full name",
+      "BILLING_ADDRESS_HOUSE_NO_LABEL": "House number",
+      "BILLING_ADDRESS_HOUSE_NO_VALIDATION": "Please add a house number",
+      "BILLING_ADDRESS_LAST_NAME": "Last name",
+      "BILLING_ADDRESS_LAST_NAME_VALIDATION": "Please add a last name",
+      "BILLING_ADDRESS_ZIP_LABEL": "ZIP code",
+      "BILLING_ADDRESS_ZIP_VALIDATION": "Please add a valid ZIP code",
+      "BILLING_ADDRESS_SAVE": "Save billing address for this device",
+      "BOOKMARK_BUTTON": "Add to your bookmarks",
+      "UNBOOKMARK_BUTTON": "Remove from your bookmarks",
+      "BOOKMARK_SUCCESS": "Successfully bookmarked",
+      "UNBOOKMARK_SUCCESS": "Removed article from your bookmarks",
+      "BOOKMARKS": "Bookmarks",
+      "BRAND_SOLUTIONS": "Brand Solutions",
+      "CARD_IN_THE_HAND": "Card in the hand",
+      "CAROUSEL_MOVE_BACK": "Move back",
+      "CAROUSEL_MOVE_FORWARD": "Move forward",
+      "CHEVRON_UP": "Chevron up",
+      "CHEVRON_DOWN": "Chevron down",
+      "CLOSE_AREA_LABEL": "Close",
+      "CLOSE_MENU": "Close menu",
+      "COMPETITIONS": "Competitions",
+      "CREDIT_CARD_METHOD": "Credit card",
+      "DATE_PICKER_GO_TO_NEXT_DATE": "Go to the next date",
+      "DATE_PICKER_GO_TO_NEXT_DATES": "Go to the next dates",
+      "DATE_PICKER_GO_TO_PREV_DATE": "Go to previous date",
+      "DATE_PICKER_GO_TO_PREV_DATES": "Go to previous dates",
+      "DATE_PICKER_RETURN_TO_TODAY": "Return to today",
+      "DELETE_ACCOUNT_TITLE": "Delete Account",
+      "DELETE_ACCOUNT_DESCRIPTION": "Delete your OneFootball account",
+      "DELETE_ACCOUNT_PAGE_TITLE": "Delete Account",
+      "DELETE_ACCOUNT_PAGE_DESCRIPTION": "In order to delete your account, you need to contact OneFootball support.",
+      "DELETE_ACCOUNT_PAGE_CTA": "Please send an email to <a></a> to proceed with account deletion.",
+      "EMPTY_HISTORY_TITLE": "You haven’t purchased any matches yet!",
+      "EMPTY_HISTORY_LABEL": "Check out the matches available in your country, and dive in!",
+      "ENDS_ON": "Ends on {{lastFour}}",
+      "ENTITY_LOGO_PLACEHOLDER_ALT_TEXT": "Logo: not available",
+      "FAQ": "Frequently Asked Questions",
+      "FAQ_QUESTION_1": "Which payment methods are supported?",
+      "FAQ_QUESTION_2": "What is the refund policy?",
+      "FAQ_QUESTION_3": "What happens if my payment fails?",
+      "FAQ_QUESTION_4": "How can I watch the game after purchase?",
+      "FAQ_QUESTION_5": "Where can I watch the game?",
+      "FAQ_RESPONSE_1": "You can pay for matches with different methods, including:<ul><li>Credit/Debit card</li><li>Paypal</li></ul>Supported payment methods may vary per country or region.",
+      "FAQ_RESPONSE_2": "Our policy is to issue refunds if you could not access the match for a technical reason. Please use the contact form via the Help Center and Support icon to provide our customer care team with a brief description of your issue and your refund request will be handled accordingly.",
+      "FAQ_RESPONSE_3": "Make sure your payment method has sufficient funds, and is:<ul><li>Registered in the same country to your OneFootball account or the supported countries to watch the match.</li><li>Not expired or cancelled.</li><li>Enabled for foreign, secure online, and recurring purchases. Look for these settings in your bank’s mobile app.</li></ul>Also, make sure your bank or payment provider has your correct details. They may need to verify your identity for security, e.g. with a password, PIN, fingerprint, or code sent to your device.<br></br>Still not working?<ul><li>Try entering your payment details again using a private/incognito window.</li><li>Try a different payment method.</li><li>Get in touch with your payment provider.</li></ul>",
+      "FAQ_RESPONSE_4": "<ul><li>On mobile, all PPV live matches can be watched.</li><li>On web, selected PPV matches can be watched.*</li><li>via AirPlay or Chromecast, selected PPV can be casted.*</li></ul>* Restrictions apply.",
+      "FAQ_RESPONSE_5": "Due to licensing restrictions, a match can only be watched in the supported countries or regions listed in the details section for each match. Please check this information before purchasing or review it in your purchase details.",
+      "FOLLOWING": "Following",
+      "FOOTER_ABOUT_US": "About Us",
+      "FOOTER_ALL_COMPETITIONS": "All competitions",
+      "FOOTER_ALL_MATCHES": "All matches",
+      "FOOTER_ALL_TEAMS": "All teams",
+      "FOOTER_PRIVACY_SETTINGS": "Privacy Settings",
+      "FOOTER_CONSENT_SETTINGS": "Consent Settings",
+      "FOOTER_COMPANY": "Company",
+      "FOOTER_CONTACT": "Contact",
+      "FOOTER_CAREERS": "Careers",
+      "FOOTER_DOWNLOAD": "Download",
+      "FOOTER_FOLLOW_US": "Follow us",
+      "FOOTER_HELPCENTER": "Help Center",
+      "FOOTER_IMPRINT": "Imprint",
+      "FOOTER_LEGAL": "Legal",
+      "FOOTER_LICENSES": "Licenses",
+      "FOOTER_PRIVACY_POLICY": "Privacy Policy",
+      "FOOTER_T&C": "Terms and Conditions",
+      "FOOTER_PRIVACY": "Privacy",
+      "FOOTER_PRIVACY_LINK": "https://static.onefootball.com/legal/consumer-web-privacy-policy/en",
+      "FOOTER_QUICK_LINKS": "Quick links",
+      "FOOTER_SUPPORT": "Support",
+      "FOOTER_STORE": "OneFootball Merch",
+      "FOOTER_TV_APP": "TV App",
+      "FOOTER_CLFP": "CLFP",
+      "FORGOT_PASSWORD_TITLE": "Forgot Password?",
+      "FORGOT_PASSWORD_SUBTITLE": "Enter your email to reset your password.",
+      "FORGOT_PASSWORD_CTA": "SEND RESET LINK",
+      "FORGOT_PASSWORD_SUCCESS": "An email to reset your password was sent. Please check your mailbox to proceed with the process.",
+      "FORGOT_PASSWORD_EMAIL_NOT_FOUND": "This email is not a registered OneFootball account",
+      "FORGOT_PASSWORD_SERVER_ERROR": "We are experiencing some problems. Please, try again later.",
+      "GALLERY_NO_MORE_NEWS": "There are no more articles to show",
+      "GENERIC_ERROR_MESSAGE": "We are experiencing some problems. Please, try again later",
+      "HAND_WITH_CARD_ALT_TEXT": "Hand with a red card using a football theme",
+      "HISTORY_REQUEST_REFUND": "Request refund",
+      "HISTORY_COLUMN_PAYMENT_TYPE": "Payment type",
+      "HISTORY_COLUMN_PRICE": "Price (incl. VAT)",
+      "HISTORY_COLUMN_PURCHASED": "Purchased",
+      "HISTORY_COLUMN_TRANSACTION": "Transaction No.",
+      "HISTORY_CONTACT_SUPPORT": "Contact support",
+      "HISTORY_CURRENT_PAGE": "Page {{current}} of {{total}}",
+      "HISTORY_DOWNLOAD_INVOICE": "Download invoice",
+      "HISTORY_ERROR": "You haven’t purchased any matches yet! Check out the matches available in your country, and dive in!",
+      "HISTORY_NEXT_PAGE": "Next",
+      "HISTORY_PREVIOUS_PAGE": "Prev",
+      "HISTORY_PURCHASES_TITLE": "Purchases",
+      "HISTORY_PURCHASE_LIST_EMPTY": "There are no registered purchases in your account yet.",
+      "HISTORY_PURCHASE_LIST_ERROR": "An error occurred with the list of purchases ({{errorcode}})",
+      "HISTORY_STATE_PURCHASED": "Purchased",
+      "HISTORY_STATE_REFUNDED": "Refunded",
+      "HISTORY_STATE_REFUND_PROCESSING": "Processing",
+      "HISTORY_TIP": "Having trouble with an order you purchased? Visit our <a></a> for more information or contact customer support",
+      "HELP_CENTER": "Help Center",
+      "HELP_CENTER_LINK": "https://onefootballsupport.zendesk.com/hc",
+      "HISTORY_VIEW_DETAILS": "View order details",
+      "HOME": "Home",
+      "ICON_APPLE_LOGO_ALT_TEXT": "Apple logo",
+      "ICON_FACEBOOK_LOGO_ALT_TEXT": "Facebook logo",
+      "ICON_GOOGLE_LOGO_ALT_TEXT": "Google logo",
+      "ICON_EMAIL_ALT_TEXT": "Email icon",
+      "IMAGE_NOT_AVAILABLE": "Image is not available",
+      "INVOICE_GENERATION_ERROR": "There was an error whilst your invoice was being processed. Please contact Customer Care for further support.",
+      "ITEM_NOT_FOUND": "There was an error whilst your payment was being processed. Please try again or contact Customer Care.",
+      "JOIN": "Join",
+      "JSON_DECODE_ERROR": "There was an error whilst we processed your data. Please try again or contact Customer Care.",
+      "JSON_MARSHALLING_ERROR": "There was an error whilst your processed your data. Please try again or contact Customer Care.",
+      "KLARNA_PAYMENT": "Klarna",
+      "LANGUAGE_PARSE_ERROR": "The language selected is unknown.",
+      "LEARN_MORE": "Learn more",
+      "LEAVE_PAYMENT_APP_MESSAGE": "Your order is incomplete. Are you sure you want to continue?",
+      "LINK_COPIED": "Copied to clipboard!",
+      "LOGIN_NAME": "Your Name",
+      "LOGIN_EMAIL": "Your Email",
+      "LOGIN_PASSWORD": "Your Password",
+      "LOGIN_ERROR_NAME": "Please add your name.",
+      "LOGIN_ERROR_EMAIL": "Invalid Email",
+      "LOGIN_PASSWORD_DESCRIPTION": "Your password must contain at least 8 characters, 1 capital letter and 1 number.",
+      "LOGIN_SHOW_PASSWORD": "Show Password",
+      "LOGIN_TERMS_AND_CONDITIONS": "I accept the <a1>Terms and Conditions</a1> and I have read the <a2>Privacy Policy.</a2>",
+      "LOGIN_CONSENT": "I want to be kept up to date with OneFootball news, products and promotions.",
+      "LOGIN_CTA_CREATE_ACCOUNT": "Create account",
+      "LOGIN_CTA_SIGN_IN": "Sign In",
+      "LOGIN_ERROR_EMAIL_AND_PASSWORD": "Email and password do not match.",
+      "LOGIN_LINK_SING_IN": "Sign In",
+      "LOGIN_LINK_SIGN_UP": "Create an account",
+      "LOGIN_EMAIL_DESCRIPTION": "Please provide a valid email address.",
+      "LOGIN_NO_YET_ACCOUNT": "Are you new here?",
+      "LOGIN_FORGOT_PASSWORD": "Forgot your password?",
+      "LOGIN_OR": "or",
+      "LOGIN_SUCCESS": "Successfully logged in.",
+      "LOGIN_FAILED": "Sign up failed. Please try later.",
+      "LOGIN_FAILED_EMAIL_ALREADY_IN_USE": "This email is already in use. Please try login in.",
+      "LOGIN_FAILED_EMAIL_WRONG_PASSWORD": "Your credentials don't match with our records.",
+      "LOGIN_FAILED_USER_NOT_FOUND": "This user doesn't exist in our records. Please, sign up.",
+      "LOGIN_WITH_EMAIL": "Continue with Email",
+      "LOGIN_VALUE_PROP_TITLE": "Join OneFootball today and never miss another goal",
+      "LOGO_ALT": "Logo: {{altText}}",
+      "MATCH_CARD_NOT_AVAILABLE": "Match information is currently not available",
+      "MATCH_CONTENT_TYPE_ERROR": "You're trying to buy a free-to-play match. Please return to Matches to watch this game.",
+      "MATCH_CONTENT_TYPE_UNKNOWN": "Something went wrong! Please try again or contact Customer Care.",
+      "MATCH_EXPIRED_LABEL": "This match is unfortunately not available. Better luck next time :(",
+      "MATCH_IS_FREE_TO_PLAY": "You're trying to buy a free-to-play match. Please return to Matches to watch this game.",
+      "MATCH_PREDICTION_COUNT_MESSAGE": "Based on <b></b> predictions",
+      "MATCH_PREDICTION_MAKE_PREDICTION": "Make your matchday prediction!",
+      "MATCH_PREDICTION_SHARE_MESSAGE_DRAW": "I predict that {{matchName}} will be a draw. Share your prediction now on {{link}}",
+      "MATCH_PREDICTION_SHARE_MESSAGE_WIN": "I predict that {{matchName}} will be won by {{teamName}}. Share your prediction now on {{link}}",
+      "MATCH_UNAVAILABLE_LABEL": "This match is unfortunately not available in your country. Better luck next time :(",
+      "MATCH_UNAVAILABLE_TITLE": "Match Unavailable",
+      "MATCH_AGGREGATE": "Agg.:",
+      "MATCH_FIRST_LEG": "First leg:",
+      "MATCH_PENALTIES_SHORT_CARD": "Pens",
+      "MATCH_WATCH_CTA": "Watch",
+      "MATCHES": "Matches",
+      "MEDITATION_MAN_ICON": "Meditation man icon",
+      "MISSING_CONSENT_CONFIRM": "Confirm",
+      "MISSING_CONSENT_DESCRIPTION": "Please review our terms of consent.",
+      "MISSING_CONSENT_H1": "Accept Terms and Conditions",
+      "MISSING_CONSENT_SUPPORT": "Please reach out to <a></a> should you require further information.",
+      "MISSING_CONSENT_TITLE": "One last thing!",
+      "MISSING_COUNTRY_HEADER": "Geolocation not valid or missing.",
+      "MORE": "More",
+      "MY_INTEREST": "My Interest",
+      "MY_INTEREST_EMPTY_ENTITY_SUBTITLE": "Follow",
+      "MY_INTEREST_EMPTY_ENTITY_CLUB_TITLE": "Favorite Team",
+      "MY_INTEREST_EMPTY_ENTITY_TEAM_TITLE": "National Team",
+      "MY_INTEREST_EMPTY_ENTITY_CLUB_SUBTITLE": "Add favorite team",
+      "MY_INTEREST_EMPTY_ENTITY_TEAM_SUBTITLE": "Add national team",
+      "MY_INTEREST_DONE": "Done",
+      "MY_INTEREST_EDIT": "Edit",
+      "MY_INTEREST_REMOVE_FOLLOW_ENTITY": "Remove this entity from your following entities",
+      "NOTIFICATION_EVENT_PROCESSING_ERROR": "Something went wrong with event processing notifications.",
+      "OG_TITLE_PAGE_CHECKOUT": "Purchase the match",
+      "OG_TITLE_PAGE_PURCHASE_HISTORY": "Purchase History",
+      "OG_TITLE_PAGE_NOT_FOUND": "Page Not Found",
+      "OG_TITLE_PAGE_ERROR": "Error page",
+      "OG_TITLE_PAGE_FORGOT_PASSWORD": "Forgot password?",
+      "OG_TITLE_PAGE_SIGN_IN": "Sign in",
+      "OG_TITLE_PAGE_SIGN_UP": "Create your account",
+      "OG_TITLE_PAGE_PAYMENT_IN_PROGRESS": "Payments. Payment in progress page",
+      "OG_TITLE_PAGE_THANK_YOU": "Payments. Thank you page",
+      "OG_TITLE_PAGE_VERIFY_EMAIL": "Verify email page",
+      "ONEFOOTBALL_AERA_PATH": "https://aera.onefootball.com/collections/serie-a",
+      "ONEFOOTBALL_ALL_COMPETITIONS_PATH": "/en/all-competitions",
+      "ONEFOOTBALL_ALL_TEAMS_PATH": "/en/all-teams",
+      "ONEFOOTBALL_IMPRINT_URL": "https://static.onefootball.com/legal/imprint/en",
+      "ONEFOOTBALL_PRIVACY_POLICY_URL": "https://static.onefootball.com/legal/consumer-web-privacy-policy/en",
+      "ONEFOOTBALL_T&C_URL": "https://static.onefootball.com/legal/terms-of-use/en",
+      "ONEFOOTBALL_YOUTUBE_URL": "https://www.youtube.com/channel/UC2-0sEOYbQFuaURd_AU6Krg",
+      "ONEFOOTBALL_HOME_PAGE": "OneFootball's home page",
+      "ONEFOOTBALL_HOME_URL": "/en/home",
+      "ONEFOOTBALL_MATCH_URL": "/en/match/{{match}}",
+      "ONEFOOTBALL_MATCHES_PATH": "/en/matches",
+      "ONEFOOTBALL_SEARCH_PATH": "/en/search",
+      "OPEN_MENU": "Open menu",
+      "PARTNER_WITH_US": "Partner With Us",
+      "PAYPAL_METHOD": "PayPal",
+      "PAY_BUTTON_CONSENT_AGREEMENT": "I have read and agreed to the terms & conditions",
+      "PAY_BUTTON_LABEL": "Pay {{amount}}",
+      "PAYMENT_IN_PROGRESS_TAB_TITLE": "Payment is in progress",
+      "PAYMENT_IN_PROGRESS_LABEL": "Bear with us a few seconds, and the game will start soon!",
+      "PAYMENT_IN_PROGRESS_TITLE": "Your Payment is being processed",
+      "PLAY_ICON_ALT_TEXT": "play icon",
+      "PRICE_CALCULATION_ERROR": "Match information is currently not available at this current time",
+      "PRODUCTS_ALREADY_PURCHASED_ERROR": "This match has been already purchased.",
+      "PRODUCTS_ERROR": "Unfortunately, this match is unavailable or cannot be purchased in your country.",
+      "PROFILE": "Profile",
+      "PROFILE_NAVIGATION": "Profile navigation",
+      "PROFILE_WELCOME": "Welcome",
+      "PROFILE_YOUR": "Your Profile",
+      "PUBLISHER": "Publisher",
+      "REFUND_MODAL_TITLE": "Request refund",
+      "REFUND_MODAL_TEXTAREA_PLACEHOLDER": "Why did you request a refund?",
+      "REFUND_MODAL_TEXT": "Obtaining a refund will make the content unaccessible. Please allow us 5 working days to process the refund. Please give us a reason for your refund request, it will help us improve our offering!",
+      "CANCEL_BUTTON": "Cancel",
+      "CONFIRM_BUTTON": "Confirm request",
+      "RESET_PASSWORD_DESCRIPTION": "Reset your password anytime",
+      "RESET_PASSWORD_TITLE": "Reset password",
+      "SALES": "Sales",
+      "SAVE_AS_STORED_PAYMENT_METHOD": "Save as stored payment method",
+      "SETTINGS": "Settings",
+      "SETTINGS_DISPLAY_FOOTER": "The option \"Auto\" adjusts your display mode based on the display settings of your device",
+      "SETTINGS_DISPLAY_MODE": "Display mode",
+      "SETTINGS_LANGUAGE": "Language",
+      "SETTINGS_UI_MODE_AUTO": "Auto",
+      "SETTINGS_UI_MODE_DARK": "Dark",
+      "SETTINGS_UI_MODE_LIGHT": "Light",
+      "SCHEMA_VALIDATION_ERROR": "Your payment was declined. Please try another card, or choose a different payment method.",
+      "SCORE_MATCH_NOT_FOUND_ERROR": "Unfortunately, this match is unavailable.",
+      "SCORE_PROCESSING_ERROR": "Something went wrong! Please try again or contact Customer Care.",
+      "SEARCH": "Search",
+      "SEARCH_HEADER_NOT_FOUND_TITLE": "No results found",
+      "SEARCH_HEADER_NOT_FOUND_SUBTITLE": "Your search didn’t give any matches.",
+      "SELECT_PAYMENT_METHOD": "Select payment method",
+      "SERVICE_PROCESSING_ERROR": "There was an error. Please try again or contact Customer Care.",
+      "SHOW_PASSWORD": "Show password",
+      "SIDEBAR_CHECK_FAQ": "Check FAQ",
+      "SIDEBAR_ORDER": "Your order",
+      "SIGN_OUT": "Sign out",
+      "SITE_NAVIGATION": "Site navigation",
+      "SOFORT_PAYMENT": "Sofort",
+      "SSO_ACCOUNT_EXISTS": "Already have an account?",
+      "SSO_DONT_HAVE_ACCOUNT": "Don’t have an account?",
+      "SSO_FAILED": "Sign up with {{provider}} failed. Try again?",
+      "SSO_SIGN_IN": "Welcome back",
+      "SSO_SIGN_IN_DESCRIPTION": "Use one of the following options to sign into your OneFootball account.",
+      "SSO_SIGN_IN_WITH_PROVIDER": "Sign in with {{provider}}",
+      "SSO_SIGN_UP": "I'm new here",
+      "SSO_SIGN_UP_DESCRIPTION": "Use one of the following applications to sign up on OneFootball.",
+      "SSO_SIGN_UP_WITH_PROVIDER": "Continue with {{provider}}",
+      "SSO_SUCCESS": "Successfully logged in using {{provider}}.",
+      "SKIP_TO_FOLLOWING": "Go To Following",
+      "STANDINGS_GAMES_DRAWN_ABBR": "D",
+      "STANDINGS_GAMES_DRAWN_DESCRIPTION": "Games drawn",
+      "STANDINGS_GAMES_LOST_ABBR": "L",
+      "STANDINGS_GAMES_LOST_DESCRIPTION": "Games lost",
+      "STANDINGS_GAMES_PLAYED_ABBR": "PL",
+      "STANDINGS_GAMES_PLAYED_DESCRIPTION": "Games played",
+      "STANDINGS_GAMES_WON_ABBR": "W",
+      "STANDINGS_GAMES_WON_DESCRIPTION": "Games won",
+      "STANDINGS_GOAL_DIFF_ABBR": "GD",
+      "STANDINGS_GOAL_DIFF_DESCRIPTION": "Goals difference",
+      "STANDINGS_POINTS_ABBR": "PTS",
+      "STANDINGS_POINTS_DESCRIPTION": "Points",
+      "STANDINGS_POSITION_DOWN": "Position moved down",
+      "STANDINGS_POSITION_NO_CHANGES": "No changes in position",
+      "STANDINGS_POSITION_UP": "Position moved up",
+      "STREAMABLE_ON_TITLE": "Streamable on",
+      "STREAM_PARTNER": "Streamed on OneFootball. Provided by {{partner}}",
+      "TEAMS": "Teams",
+      "TERMS_AND_CONDITIONS": "Terms & Conditions",
+      "TERMS_AND_CONDITIONS_LINK": "https://static.onefootball.com/legal/terms-of-use/",
+      "THANK_YOU_DOWNLOAD_INVOICE": "Your invoice is available for download <a></a>.",
+      "THANK_YOU_DOWNLOAD_INVOICE_LINK": "here",
+      "THANK_YOU_BUTTON": "Take me to the match",
+      "THANK_YOU_INFORMATION": "Enjoy the match and may the best team (yours) win!",
+      "THANK_YOU_TITLE": "Thank you!",
+      "THANK_YOU_PAYMENT_SUCCESSFUL": "Payment Successful!",
+      "TIME_TODAY": "Today",
+      "TIME_TOMORROW": "Tomorrow",
+      "TIME_YESTERDAY": "Yesterday",
+      "TRANSACTION_HANDLING_ERROR": "There was an error whilst your payment was being processed. Please try again or contact Customer Care.",
+      "TRANSACTION_IN_PROCESSING": "Transaction in progress. Left {{time}}",
+      "TV_LOGIN_TITLE": "Are you trying to login to OneFootball on your TV?",
+      "TV_LOGIN_SUBTITLE": "Please enter the code that is displayed on your tv screen.",
+      "TV_LOGIN_BUTTON": "Confirm",
+      "TV_LOGIN_400": "The code is not valid, please try again",
+      "TV_LOGIN_500": "Something went wrong, please try again",
+      "TV_SIGN_IN_SUCCESS_TITLE": "Log in successful",
+      "TV_SIGN_IN_SUCCESS_SUBTITLE": "You can now access the OneFootball app on your TV.",
+      "TWO_MAN_PLAYS_FOOTBALL_IMAGE_ALT": "Two football players fighting for the ball on a football pitch",
+      "UNHANDLED_ERROR": "Something went wrong! Please try again or contact Customer Care.",
+      "USE_STORED_CARD": "Use a stored card",
+      "VALIDATION_DIGITS_ONLY": "Should contain only digits",
+      "VALIDATION_MIN_TWO_SYMBOLS": "Should contain letters, spaces, numbers and commas at least 2 symbols",
+      "VALIDATION_MIN_TWO_LETTERS": "Should contain only letters at least 2 symbols",
+      "VALIDATION_MIT_THREE_SYMBOLS": "Should contain at least 3 symbols",
+      "VERIFY_EMAIL_CTA": "Verify email address",
+      "VERIFY_EMAIL_DESCRIPTION": "Verifying your email address adds an extra layer of security to your account.",
+      "VERIFY_EMAIL_LINK_SENT": "Confirmation link sent to your email.",
+      "VERIFY_EMAIL_NOT_NOW": "Not now",
+      "VERIFY_EMAIL_TITLE": "One last thing before you start!",
+      "VERIFY_EMAIL_VERIFICATION_ERROR": "Email could not be verified",
+      "VERIFY_ICON_ALT": "Icon for official team",
+      "VIEW_MATCHES": "View matches",
+      "VIEW_RIGHTS_DESCRIPTION": "Available in",
+      "WARNING_ICON_ALT_TEXT": "Warning icon",
+      "WATCH_BUTTON_LABEL": "Watch",
+      "WATCH_MATCH_NOT_FOUND_ERROR": "Unfortunately, this match is unavailable.",
+      "WATCH_PROCESSING_ERROR": "Unfortunately, this match is unavailable.",
+      "WRONG_TOKEN": "You are trying to use a production token on staging."
+    }
+  },
+  "__N_SSP": true
+}
