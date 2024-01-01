@@ -154,3 +154,22 @@ We follow approach 2 in react.
   - create a team Slice.
   - dispatch(Action)
   - Selector
+
+
+# Types of testing (developer)
+  - Unit Testing - testing one component in isolation
+  - Integration Testing - testing the integration of components
+  - End to End Testing (e2e Testing)
+
+# Setting up testing in our app
+  - Used libraries
+    - @testing-library/react
+    - jest (along with babel dependencies)
+  - Configure babel (babel.config.js)
+  - Configure parcel Config file to disable default babel transpilation in Parcel.
+  - right jest configuration
+    - jsdom: parses and interacts with assembled HTML just like a browser.
+  - install jsdom jest env
+  - install @babel/preset-react to make JSX work in test cases.
+    - include @babel/preset-react in babel config
+  - install @testing-library/jest-dom

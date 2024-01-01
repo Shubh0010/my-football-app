@@ -1,0 +1,20 @@
+{
+  "uiKey": "afce84f",
+  "position": 1,
+  "positionChange": 0,
+  "teamName": "Manchester United",
+  "imageObject": {
+      "path": "https://images.onefootball.com/icons/teams/164/21.png",
+      "alt": "Logo: Manchester United",
+      "darkModePath": "",
+      "isPreloaded": false
+  },
+  "playedMatchesCount": 19,
+  "wonMatchesCount": 12,
+  "drawnMatchesCount": 6,
+  "lostMatchesCount": 1,
+  "goalsDiff": 23,
+  "points": 42,
+  "teamPath": "/en/team/manchester-united-21",
+  "trackingEvents": []
+}
